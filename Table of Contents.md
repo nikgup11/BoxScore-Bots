@@ -4,20 +4,20 @@
 - Team Names: Eli Pappas & Nikhil Gupta
 - Advisor: Giovani Abuaitah
 
-**Project Abstract**
+**Project Abstract**  
 Boxscore Bots is a machine-learning sports line predictor using public player and team stats to generate performance projections based on trends and matchup data. A web-based interface will provide easy use, and we will compare our projections with existing sports-betting lines to highlight what we believe are favorable bets.
 
 [**Project Description**](https://github.com/nikgup11/BoxScore-Bots/blob/main/Project-Description.md)
 
-[**User Stories and Design Diagrams**](https://github.com/nikgup11/BoxScore-Bots/tree/main/User%20Stories%20and%20Design%20Diagrams)
+[**User Stories and Design Diagrams**](https://github.com/nikgup11/BoxScore-Bots/tree/main/User%20Stories%20and%20Design%20Diagrams)  
 
-&nbsp;&nbsp;**User Stories**
-&nbsp;&nbsp;**Design Diagrams**
+&nbsp;&nbsp;**User Stories**  
+&nbsp;&nbsp;**Design Diagrams**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Level 0  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Level 1  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Level 2  
 
-[**Project Tasks and Timeline**](https://github.com/nikgup11/BoxScore-Bots/tree/main/Project%20Tasks%20and%20Timeline)
+[**Project Tasks and Timeline**](https://github.com/nikgup11/BoxScore-Bots/tree/main/Project%20Tasks%20and%20Timeline)  
 
 &nbsp;&nbsp;&nbsp;Task List
 &nbsp;&nbsp;&nbsp;Timeline
