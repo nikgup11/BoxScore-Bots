@@ -36,6 +36,12 @@ Expenses to date: There have been no expenses to date
 
 **Appendix**
 - [Data Retrieval Code ](https://github.com/nikgup11/BoxScore-Bots/tree/main/data-collection) (Eli)
+  * Went through multiple iterations using different public and free APIs
+  * Eventually decided on webscraping player data from BasketballReference
+     * Tried using ESPN and the NBA official sites but data was not sufficient or not easily scrapable
+  * Currently learning PosgreSQL for player data storage
+  * Also have found sources for defensive ratings and other factors that we plan on incorporating such as injuries
+    and individual player impact to account for load management and injuries
 - [Training Model Research](https://github.com/nikgup11/BoxScore-Bots/tree/Nikhil-Branch/Model%20Research)  (Nikhil)
   * Contains notes on applicable models for training NBA data  
   * Contains reference to similar project that projects player performance
