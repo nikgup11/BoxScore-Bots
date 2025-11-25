@@ -38,4 +38,7 @@ Expenses to date: There have been no expenses to date
 - [Data Retrieval Code ](https://github.com/nikgup11/BoxScore-Bots/tree/main/data-collection) (Eli)
 - [Training Model Research](https://github.com/nikgup11/BoxScore-Bots/tree/Nikhil-Branch/Model%20Research)  (Nikhil)
   * Contains notes on applicable models for training NBA data  
-  * Contains reference to similar project that projects player performance  
+  * Contains reference to similar project that projects player performance
+  * Contains research on Generative Adversarial Network (GAN)
+    * Helps machines to create new, realistic data by learning from existing examples
+    * Example git repo implementation for reference
