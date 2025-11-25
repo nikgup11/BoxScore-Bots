@@ -10,6 +10,7 @@ Boxscore Bots is a machine-learning sports line predictor using public player an
 [**Project Description**](https://github.com/nikgup11/BoxScore-Bots/blob/main/Project-Description.md)
 
 [**User Stories and Design Diagrams**](https://github.com/nikgup11/BoxScore-Bots/tree/main/User%20Stories%20and%20Design%20Diagrams)
+
 &nbsp;&nbsp;**User Stories**
 &nbsp;&nbsp;**Design Diagrams**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Level 0  
@@ -17,6 +18,7 @@ Boxscore Bots is a machine-learning sports line predictor using public player an
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Level 2  
 
 [**Project Tasks and Timeline**](https://github.com/nikgup11/BoxScore-Bots/tree/main/Project%20Tasks%20and%20Timeline)
+
 &nbsp;&nbsp;&nbsp;Task List
 &nbsp;&nbsp;&nbsp;Timeline
 &nbsp;&nbsp;&nbsp;Effort Matrix
