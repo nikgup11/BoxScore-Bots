@@ -14,7 +14,7 @@
 [**Professional Biographies**](https://github.com/nikgup11/BoxScore-Bots/tree/main/Professional%20Biographies)
 
 **Appendix**
-- [Data Retrieval Code ](https://github.com/nikgup11/BoxScore-Bots/tree/main/data-collection)
-- [Training Model Research](https://github.com/nikgup11/BoxScore-Bots/tree/Nikhil-Branch/Model%20Research)  
+- [Data Retrieval Code ](https://github.com/nikgup11/BoxScore-Bots/tree/main/data-collection) (Eli)
+- [Training Model Research](https://github.com/nikgup11/BoxScore-Bots/tree/Nikhil-Branch/Model%20Research) (Nikhil)
   * Contains notes on applicable models for training NBA data  
   * Contains reference to similar project that projects player performance  
