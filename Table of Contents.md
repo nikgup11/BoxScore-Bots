@@ -19,9 +19,9 @@ Boxscore Bots is a machine-learning sports line predictor using public player an
 
 [**Project Tasks and Timeline**](https://github.com/nikgup11/BoxScore-Bots/tree/main/Project%20Tasks%20and%20Timeline)  
 
-&nbsp;&nbsp;&nbsp;Task List
-&nbsp;&nbsp;&nbsp;Timeline
-&nbsp;&nbsp;&nbsp;Effort Matrix
+&nbsp;&nbsp;&nbsp;Task List  
+&nbsp;&nbsp;&nbsp;Timeline  
+&nbsp;&nbsp;&nbsp;Effort Matrix  
 
 [**ABET Concerns Essay**](https://github.com/nikgup11/BoxScore-Bots/tree/main/ABET%20Concerns%20Essay)
 
@@ -31,11 +31,11 @@ Boxscore Bots is a machine-learning sports line predictor using public player an
 
 [**Professional Biographies**](https://github.com/nikgup11/BoxScore-Bots/tree/main/Professional%20Biographies)
 
-**Budget**
+**Budget**  
 Expenses to date: There have been no expenses to date
 
 **Appendix**
 - [Data Retrieval Code ](https://github.com/nikgup11/BoxScore-Bots/tree/main/data-collection)
-- [Training Model Research](https://github.com/nikgup11/BoxScore-Bots/tree/Nikhil-Branch/Model%20Research)
-  * Contains notes on applicable models for training NBA data
-  * Contains reference to similar project that projects player performance
+- [Training Model Research](https://github.com/nikgup11/BoxScore-Bots/tree/Nikhil-Branch/Model%20Research)  
+  * Contains notes on applicable models for training NBA data  
+  * Contains reference to similar project that projects player performance  
