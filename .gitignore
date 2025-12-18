@@ -1,3 +1,4 @@
 # Ignore log files and temp directories
 *.csv
 .DS_Store
+data-collection/tempCodeRunnerFile.py
