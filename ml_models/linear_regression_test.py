@@ -46,13 +46,17 @@ data['is_home'] = (data['Unnamed: 5'] != '@').astype(float)
 data['result_win'] = data['Result'].str.startswith('W').astype(float)
 
 # features (previous game)
-features = [
+prev_player_features = [
     'MP', 'FGA', '3PA', 'FTA',
     'FG%', '3P%', '2P%', 'eFG%', 'FT%',
     'TRB', 'AST', 'TOV',
     'GmSc', '+/-', 'PTS', 'is_home', 'result_win',
-    'OppOffRtg', 'OppDefRtg', 'OppNetRtg', 'OppPace'
 ]
+
+prev_opp_features = ['PrevOppOffRtg', 'PrevOppDefRtg', 'PrevOppNetRtg', 'PrevOppPace']
+current_features = ['OppOffRtg', 'OppDefRtg', 'OppNetRtg', 'OppPace']
+
+features = prev_player_features + prev_opp_features + current_features
 
 target = ['PTS']
 
@@ -60,11 +64,17 @@ target = ['PTS']
 data['MP'] = data['MP'].apply(convert_mp)
 
 # convert numeric columns
-for col in features + ['PTS']:
+for col in prev_player_features + current_features + ['PTS']:
     data[col] = pd.to_numeric(data[col], errors='coerce')
 
-# now shift features so they refer to the *previous* game
-data[features] = data[features].shift(1)
+# build previous-opponent columns from shifted current opponent
+data['PrevOppOffRtg'] = data['OppOffRtg'].shift(1)
+data['PrevOppDefRtg'] = data['OppDefRtg'].shift(1)
+data['PrevOppNetRtg'] = data['OppNetRtg'].shift(1)
+data['PrevOppPace']   = data['OppPace'].shift(1)
+
+# shift previous-player stats to last game
+data[prev_player_features] = data[prev_player_features].shift(1)
 
 # drop rows with NaNs in features or target
 data = data.dropna(subset=features + target)
@@ -145,7 +155,9 @@ else:
         print(f"Pred: {test_preds[i].item():.2f}, Actual: {y_test[i].item():.2f}")
 
 # manual test run for today
+'''
 X_test_np_today = [[36.6, 23, 7, 4, .522, .143, .688, .543, 1.000, 4, 5, 5, 16.5, 2, 29, 1, 0, 114.0, 119.7, -5.7, 96.9]]
 X_test_today = torch.tensor(X_test_np_today, dtype=torch.float32)
 y_today = model(X_test_today)
 print(y_today.item())
+'''

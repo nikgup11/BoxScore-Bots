@@ -2,3 +2,4 @@
 *.csv
 .DS_Store
 data-collection/tempCodeRunnerFile.py
+ml_models/tempCodeRunnerFile.py
