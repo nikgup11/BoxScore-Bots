@@ -5,12 +5,12 @@ import pandas as pd
 from nba_api.stats.endpoints import leaguedashteamstats
 from nba_api.stats.static import teams as static_teams
 
-OUT_DIR = "./data-collection/bbref_players_games_simple/"
+OUT_DIR = "./data-collection/cleaned_data/"
 
 # get player data
 # hardcoded to SGA for now, update later to be modular
 data = pd.read_csv(
-    "./data-collection/bbref_players_games_simple/g/gilgesh01_Shai_Gilgeous-Alexander_last3.csv"
+    "./data-collection/cleaned_data/gilgesh01_Shai_Gilgeous-Alexander_last3.csv"
 )
 
 def season_end_to_str(season_end: int) -> str:
@@ -87,7 +87,7 @@ for idx, game in data.iterrows():
 
 # save enriched player data
 out_path = os.path.join(
-    OUT_DIR, "gilgesh01_Shai_Gilgeous-Alexander_last3_with_opp_stats.csv"
+    OUT_DIR, "gilgesh01_Shai_Gilgeous-Alexander_last3.csv"
 )
 data.to_csv(out_path, index=False)
 print(f"Saved enriched data to {out_path}")

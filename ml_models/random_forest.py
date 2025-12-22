@@ -25,7 +25,7 @@ def convert_mp(mp):
 
 # %%
 # import data
-data = pd.read_csv('../data collection/bbref_players_games_simple/gilgesh01_Shai_Gilgeous-Alexander_last3_with_opp_stats.csv')
+data = pd.read_csv('./data-collection/bbref_players_games_simple/gilgesh01_Shai_Gilgeous-Alexander_last3_with_opp_stats.csv')
 
 # make sure games are ordered oldest -> newest
 if 'Date' in data.columns:
