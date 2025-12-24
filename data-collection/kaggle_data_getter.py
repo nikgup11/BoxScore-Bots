@@ -17,4 +17,4 @@ for root, _, files in os.walk(path):
         shutil.copy2(src, dst)
 
 print("Kaggle dataset cached at:", path)
-print("Raw data copied to:", raw_data_dir)
+print("Raw data copied to:", dest)
