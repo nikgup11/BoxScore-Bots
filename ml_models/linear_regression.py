@@ -173,6 +173,12 @@ def get_model_and_prediction(player_id):
     X_np = df[all_features].values.astype(np.float32)
     y_np = df[[target]].values.astype(np.float32)
 
+    # Check if we have enough samples for train/test split
+    min_samples = 5
+    if len(X_np) < min_samples:
+        print(f"Player has only {len(X_np)} samples after feature engineering. Need at least {min_samples} for reliable training. Skipping.")
+        return
+
     # chronological split (shuffle=False keeps time order)
     X_train, X_test, y_train, y_test = train_test_split(
         X_np, y_np, test_size=0.2, shuffle=False
@@ -258,4 +264,4 @@ if __name__ == "__main__":
     players_file = pd.read_csv('./data-collection/active_data/Players.csv')
     for player_id in players_file['personId']:
         get_model_and_prediction(player_id)
-        output_df.to_csv('./data-collection/output_data/linear_player_prediction.csv', index=False)
+    output_df.to_csv('./data-collection/output_data/linear_player_prediction.csv', index=False)
