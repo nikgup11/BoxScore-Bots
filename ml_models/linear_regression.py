@@ -236,6 +236,8 @@ def get_model_and_prediction(player_id):
         'Date': next_game['gameDateTimeEst'],
         'predictedPoints': float(prediction),
         'MSE': float(mse),
+        'playerteamName': player_team,
+        'opponentteamName': opp_team_next,
     }
 
     global output_df
@@ -246,12 +248,14 @@ def get_model_and_prediction(player_id):
     else:
         mask = output_df['personId'] == int(player_id)
         if mask.any():
-            output_df.loc[mask, ['firstName', 'lastName', 'Date', 'predictedPoints', 'MSE']] = [
+            output_df.loc[mask, ['firstName', 'lastName', 'Date', 'predictedPoints', 'MSE', 'playerteamName', 'opponentteamName']] = [
                 new_row['firstName'],
                 new_row['lastName'],
                 new_row['Date'],
                 new_row['predictedPoints'],
                 new_row['MSE'],
+                new_row['playerteamName'],
+                new_row['opponentteamName'],
             ]
             print("existing row updated")
         else:

@@ -99,12 +99,17 @@ for c in new_cols:
 # cache per-season stats so we only hit nba_api once per season
 season_cache: dict[int, dict] = {}
 
+# filter out preseason games
+data = data[(data['gameLabel'] != 'Preseason')]
+
 # loop through games and attach stats
 for idx, game in data.iterrows():
     opp_name = game.get("opponentteamName")
     team_abbr = normalize_team_to_abbr(opp_name)
     if not team_abbr:
+        # skip unknown teams and drop the rows
         print(f"Skipping unknown team: {opp_name}")
+        data = data.drop(idx)
         continue
 
     game_date = game.get("gameDateTimeEst")
