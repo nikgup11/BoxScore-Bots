@@ -26,7 +26,7 @@ if os.path.exists(csv_path):
 else:
     print("File not found. Creating a new empty DataFrame.")
     # Initialize with the columns you expect to use later
-    output_df = pd.DataFrame(columns=['personId', 'firstName', 'lastName', 'Date', 'predictedPoints', 'MSE'])
+    output_df = pd.DataFrame(columns=['personId','firstName', 'lastName', 'Date', 'predictedPoints', 'MSE', 'playerteamName', 'opponentteamName', 'confidence'])
 
 def get_model_and_prediction(player_id):
     # 1. DATA IMPORT
@@ -221,10 +221,21 @@ def get_model_and_prediction(player_id):
     raw_pred = rfr.predict(x_future_np)[0]
     prediction = max(0.0, raw_pred)  # clamp to 0+
 
+    # Calculate Confidence Score
+    # We ask each estimator for its prediction
+    per_tree_preds = [tree.predict(x_future_np)[0] for tree in rfr.estimators_]
+    
+    # Calculate the spread (Standard Deviation)
+    pred_std = np.std(per_tree_preds)
+    
+    # Calculate Confidence Score
+    confidence_score = 1/pred_std
+
     print(f"--- Player ID: {player_id} ---")
     print(f"Test MSE: {mse:.3f}")
     print(f"Next Opponent: {opp_team_next} ({'Home' if is_home_next else 'Away'})")
     print(f"Projected Points: {prediction:.2f}")
+    print(f"Confidence Score (Std Dev): +/- {confidence_score:.3f}")
     
     new_row = {
         'personId': int(player_id),
@@ -233,6 +244,9 @@ def get_model_and_prediction(player_id):
         'Date': next_game['gameDateTimeEst'],
         'predictedPoints': float(prediction),
         'MSE': float(mse),
+        'playerteamName': player_team,
+        'opponentteamName': opp_team_next,
+        'confidence': float(confidence_score)
     }
 
     global output_df
@@ -243,12 +257,15 @@ def get_model_and_prediction(player_id):
     else:
         mask = output_df['personId'] == int(player_id)
         if mask.any():
-            output_df.loc[mask, ['firstName', 'lastName', 'Date', 'predictedPoints', 'MSE']] = [
+            output_df.loc[mask, ['firstName', 'lastName', 'Date', 'predictedPoints', 'MSE', 'playerteamName', 'opponentteamName', 'confidence']] = [
                 new_row['firstName'],
                 new_row['lastName'],
                 new_row['Date'],
                 new_row['predictedPoints'],
                 new_row['MSE'],
+                new_row['playerteamName'],
+                new_row['opponentteamName'],
+                new_row['confidence']
             ]
             print("existing row updated")
         else:
