@@ -13,7 +13,7 @@ if os.path.exists(csv_path):
     output_df = pd.read_csv(csv_path)
 else:
     print("File not found. Creating a new empty DataFrame.")
-    output_df = pd.DataFrame(columns=['personId', 'firstName', 'lastName', 'Date', 'predictedPoints'])
+    output_df = pd.DataFrame(columns=['personId', 'firstName', 'lastName', 'Date', 'predictedPoints', 'MSE_lr', 'MSE_rf'])
 
 
 df_lr = pd.read_csv('../data-collection/output_data/linear_player_prediction.csv')
@@ -64,7 +64,9 @@ for index, row in ensemble_df.iterrows():
         'firstName': row['firstName'],
         'lastName': row['lastName'],
         'Date': row['Date'],
-        'predictedPoints': round(final_pred, 2)
+        'predictedPoints': round(final_pred, 2), 
+        'MSE_lr': mse_lr, 
+        'MSE_rf': mse_rf
     }
     
     # Update if exists, append if not
@@ -73,20 +75,22 @@ for index, row in ensemble_df.iterrows():
     
     if mask.any():
         # Update existing row
-        output_df.loc[mask, ['firstName', 'lastName', 'Date', 'predictedPoints']] = [
+        output_df.loc[mask, ['firstName', 'lastName', 'Date', 'predictedPoints', 'MSE_lr', 'MSE_rf']] = [
             new_data['firstName'], 
             new_data['lastName'], 
             new_data['Date'], 
-            new_data['predictedPoints']
+            new_data['predictedPoints'],
+            new_data['MSE_lr'],
+            new_data['MSE_rf']
         ]
     else:
-        # Append a new row
+        # APPEND a new row
         # We convert the single dict to a DataFrame and concat it
         new_row_df = pd.DataFrame([new_data])
         output_df = pd.concat([output_df, new_row_df], ignore_index=True)
         print(f"Added new player: {new_data['firstName']} {new_data['lastName']}")
 
-# Save the final updated table
+# 4. Save the final updated table
 output_df.to_csv(csv_path, index=False)
 print(f"\nEnsemble predictions saved to: {csv_path}")
 print(output_df.head())
