@@ -5,10 +5,6 @@ def track_model_success(projection_file, statistics_file, output_file):
     projection_data = pd.read_csv(projection_file, low_memory=False)
     game_data = pd.read_csv(statistics_file, low_memory=False)
 
-    # Remove rows with empty Name
-    projection_data = projection_data.dropna(subset=['Name'])
-    projection_data['Name'] = projection_data['Name'].astype(str).str.strip()
-
     output = projection_data.copy()
     output['Actual_PTS'] = None
     output['Actual_REB'] = None

@@ -1,5 +1,6 @@
 # Ignore log files and temp directories
 .DS_Store
+deprecated/
 data-collection/tempCodeRunnerFile.py
 ml_models/tempCodeRunnerFile.py
 .env
