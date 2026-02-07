@@ -4,3 +4,9 @@ deprecated/
 data-collection/tempCodeRunnerFile.py
 ml_models/tempCodeRunnerFile.py
 .env
+prod-ca-2021.crt
+data-collection/database/__pycache__/crud.cpython-313.pyc
+data-collection/database/__pycache__/database.cpython-313.pyc
+data-collection/database/__pycache__/main.cpython-313.pyc
+data-collection/database/__pycache__/models.cpython-313.pyc
+data-collection/database/__pycache__/schemas.cpython-313.pyc
