@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxScore Bot Landing Page</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* Background */
+            background-color: #87CEEB; 
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            color: #2c3e50;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Red Tab Line & Navigation Container */
+        .top-accent-line {
+            height: 50px;
+            background-color: #8B0000; /* Dark Red */
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            
+            /* ADDED: Flexbox to align the links */
+            display: flex;
+            justify-content: flex-end; /* Pushes links to the right */
+            align-items: center; /* Vertically centers links */
+            padding-right: 5%; /* Keeps links off the absolute edge */
+        }
+
+        /* ADDED: Navigation Link Styling */
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 500px; /* Space between the links */
+            margin-right: 100px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: #ffcccc; /* Light pink hover effect */
+        }
+
+        /* Main Wrapper */
+        .main-wrapper {
+            display: flex;
+            align-items: center; 
+            justify-content: space-between; 
+            padding: 0 10%; 
+            min-height: 80vh;
+            
+            /* ADDED: Push content down so it clears the fixed header */
+            margin-top: 60px; 
+        }
+
+        .image-container img {
+            max-width: 650px; 
+            height: auto;
+            margin-left: 8%; 
+            margin-top: 8%;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+            margin-top: 5px;
+            color: #fff;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+        }
+
+        p {
+            font-size: 1.25rem;
+            max-width: 600px;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Utility for the 'say hello' text */
+        .intro-text {
+            margin-top: 0; /* Override the default p margin */
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="top-accent-line">
+        <ul class="nav-links">
+            <li><a href="page1.html">Page 1</a></li>
+            <li><a href="page2.html">Page 2</a></li>
+            <li><a href="page3.html">Page 3</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-wrapper">
+        <main class="container">
+            <p class="intro-text"><b>say hello to...</b></p>
+            <h1>BOXSCORE BOT!</h1>
+            <p>
+            BoxScore Bot is a Machine Learning powered
+            sports line predictor. We train our ML models on
+            public data to predict player performances over
+            the season, and present their projected statistics
+            in an easy-to-read format!
+            </p>
+        </main>
+
+        <div class="image-container">
+            <img src="bxb_mascot.png" alt="Mascot">
+        </div>
+    </div>
+
+</body>
+</html>
