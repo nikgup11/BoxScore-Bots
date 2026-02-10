@@ -27,7 +27,7 @@ print("\n[STEP 2/3] Filtering active players for 2025-26 season...")
 SEASON_START_DATE = pd.Timestamp("2025-10-01")
 SEASON_STRING = "2025-26"
 ID_COLUMNS = ["personId", "PERSON_ID", "player_id", "PLAYER_ID", "playerID", "id", "ID"]
-DATE_COLUMNS = ["GAME_DATE", "GAME_DATE_EST", "GAME_DATE_LOCAL"]
+DATE_COLUMNS = ["GAME_DATE", "GAME_DATE_EST", "GAME_DATE_LOCAL", "gameDateTimeEst"]
 EXCLUDED_FILES = {"Players.csv", "Teams.csv", "TeamDetails.csv"}
 
 def season_has_games(data_dir):
@@ -35,7 +35,10 @@ def season_has_games(data_dir):
         if not fname.lower().endswith(".csv"):
             continue
         df = pd.read_csv(os.path.join(data_dir, fname), low_memory=False)
-        date_col = next((c for c in DATE_COLUMNS if c in df.columns), None)
+        if df.empty:
+            continue
+        # Case-insensitive check for date columns
+        date_col = next((c for c in df.columns if c.upper() in DATE_COLUMNS), None)
         if not date_col:
             continue
         dates = pd.to_datetime(df[date_col], errors="coerce")
@@ -65,10 +68,7 @@ def get_active_ids_from_api():
     df = leaguedashplayerbiostats.LeagueDashPlayerBioStats(season=SEASON_STRING).get_data_frames()[0]
     return set(df["PLAYER_ID"].astype(str))
 
-if season_has_games(kaggle_path):
-    active_ids = get_active_ids_from_games(kaggle_path)
-else:
-    active_ids = get_active_ids_from_api()
+active_ids = get_active_ids_from_games(kaggle_path)
 
 print(f"  Found {len(active_ids)} active players.")
 
@@ -109,6 +109,13 @@ df = df.drop(columns=[c for c in cols_to_remove if c in df.columns], errors='ign
 
 # Fix dates
 df['gameDateTimeEst'] = pd.to_datetime(df['gameDateTimeEst'].astype(str).str[:10])
+# Remove rows where gameDateTimeEst is missing or invalid
+df = df.dropna(subset=['gameDateTimeEst'])
+print(f"  Rows after dropping missing gameDateTimeEst: {len(df)}")
+# Remove Preseason games
+df = df[df['gameType'].str.upper() != 'PRESEASON']
+print(f"  Rows after dropping Preseason games: {len(df)}")
+
 
 # Team mapper
 nba_teams = teams.get_teams()
