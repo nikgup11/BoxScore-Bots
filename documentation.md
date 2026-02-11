@@ -1,3 +1,8 @@
+---
+layout: default
+title: Documentation
+---
+
 # How-To Guide
 
 Welcome! The main feature of this site is the **Projection Table**, which functions like an Excel spreadsheet. You can **search, sort, and filter** data to explore our NBA player projections. Filters allow you to find players with the **most points, rebounds, assists, or highest projected PRA** (Points + Rebounds + Assists).
