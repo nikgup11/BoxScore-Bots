@@ -1,6 +1,27 @@
-# How-To
-The main page of this site is the table. It is a searchable and sortable excel-like table that allows you to look through our projections and filter by most points, most rebounds, most assists, or highest projected pra (points + rebounds + assists). 
-This is the main purpose of the site. There will also be pages dedicated to tracking overall model accuracy and our projections insight on the biggest differences between the projection and actual sportsbook line.
+# How-To Guide
+
+Welcome! The main feature of this site is the **Projection Table**, which functions like an Excel spreadsheet. You can **search, sort, and filter** data to explore our NBA player projections. Filters allow you to find players with the **most points, rebounds, assists, or highest projected PRA** (Points + Rebounds + Assists).
+
+Beyond the Projection Table, there are additional pages for:  
+- **Model Accuracy:** Track how well our projections match actual game outcomes.  
+- **Projection vs. Sportsbook:** See the biggest differences between our projections and sportsbook lines.
+
+Our aim is for the site to be extremely easy to use and very intuitive so that a guide like this is unneeded, but as more features are added, we will continue to update this guide to reflect those changes. There are no user accounts as of right now and everything is free to use and viewable for anyone.
+
+---
+
+## Getting Started
+
+1. **Search for a Player:**  
+   Use the search bar to quickly locate a player by name.
+
+2. **Sort and Filter:**  
+   Click column headers to sort stats. Use filters to highlight top performers in points, rebounds, assists, or PRA.
+
+3. **Understand the Stats:**  
+   Hover over column headers or refer to the **Glossary** below to see what each stat means and how it’s calculated.
+
+---
 
 # Glossary (source: basketball-reference.com)
 
@@ -177,4 +198,3 @@ This is the main purpose of the site. There will also be pages dedicated to trac
 - Regression models  
 - Tree-based methods  
 - Neural networks
-
