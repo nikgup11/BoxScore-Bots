@@ -1,4 +1,4 @@
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/nav_bar';
 
 export default function StatsPage() {
   // Hard-coded values for now
