@@ -1,6 +1,6 @@
 // app/page.tsx
 import Image from 'next/image';
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/nav_bar';
 
 export default function LandingPage() {
   return (
