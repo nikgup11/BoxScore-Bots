@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Navbar from '@/components/nav_bar';
-import playerData from '@/data/projections.json'; // Importing the separate data file
+import playerData from '@/data/projections'; // Importing the separate data file
 
 export default function StatsPage() {
   const [searchTerm, setSearchTerm] = useState('');
