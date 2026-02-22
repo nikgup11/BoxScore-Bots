@@ -127,8 +127,18 @@ def predict_slate_rnn(team_stats_map, target_date_str):
         matchups = [(away_team, home_team, 0), (home_team, away_team, 1)]
         
         for current_team, opp_team, is_home in matchups:
-            team_mask = data['playerteamName'].str.contains(current_team, case=False, na=False)
-            roster_ids = data[team_mask & data['personId'].isin(active_ids)]['personId'].unique()
+            # Get the player's latest team
+            latest_team_per_player = (
+                data.sort_values('gameDateTimeEst')
+                    .groupby('personId')['playerteamName']
+                    .last()
+            )
+
+            # Then filter roster_ids like this:
+            roster_ids = [
+                pid for pid in active_ids
+                if latest_team_per_player.get(pid, None) == current_team
+            ]
             
             for pid in roster_ids:
                 p_recent_all = data[data['personId'] == pid].sort_values('gameDateTimeEst')
