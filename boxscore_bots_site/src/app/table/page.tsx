@@ -1,22 +1,78 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from '@/components/nav_bar';
-import playerData from './projections.json'; // Importing the separate data file
+import { supabase } from '../../lib/supabase'; // Relative path to lib
+
+type Player = {
+  name: string;
+  team: string;
+  opponent: string;
+  points: number | null;
+  rebounds: number | null;
+  assists: number | null;
+  date: string | null;
+};
 
 export default function StatsPage() {
   const [searchTerm, setSearchTerm] = useState('');
+  const [playerData, setPlayerData] = useState<Player[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  // Filter logic remains the same
+  // Fetch data from Supabase
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const { data, error } = await supabase
+          .from('projections')
+          .select('name, team, opp, proj_pts, proj_reb, proj_ast, game_date');
+
+        if (error) {
+          console.error('Error fetching projections:', error.message);
+          setPlayerData([]);
+        } else {
+          // Map DB columns to frontend type
+          const mapped = (data || []).map((row: any) => ({
+            name: row.name,
+            team: row.team,
+            opponent: row.opp,
+            points: row.proj_pts,
+            rebounds: row.proj_reb,
+            assists: row.proj_ast,
+            date: row.game_date,
+          }));
+          setPlayerData(mapped);
+        }
+      } catch (err) {
+        console.error('Unexpected error:', err);
+        setPlayerData([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  // Filter by search term
   const filteredPlayers = playerData.filter((player) =>
-    player.name.toLowerCase().includes(searchTerm.toLowerCase())
+    player.name?.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center text-xl font-medium">
+        Loading projections...
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-[#87CEEB] font-sans text-[#2c3e50]">
       <Navbar />
-      
+
       <main className="mx-auto max-w-6xl px-6 pt-24 pb-12">
+        {/* Header */}
         <div className="mb-8 text-center text-white">
           <h1 className="text-4xl font-bold drop-shadow-md">
             BOXSCORE BOT PROJECTIONS
@@ -37,6 +93,7 @@ export default function StatsPage() {
           />
         </div>
 
+        {/* Table */}
         <div className="overflow-hidden rounded-xl bg-white shadow-xl">
           <div className="overflow-x-auto">
             <table className="w-full text-left border-collapse">
@@ -57,9 +114,9 @@ export default function StatsPage() {
                       <td className="p-4 font-semibold text-blue-900">{player.name}</td>
                       <td className="p-4 text-sm">{player.team}</td>
                       <td className="p-4 text-sm text-gray-500">@{player.opponent}</td>
-                      <td className="p-4 text-center font-medium">{player.points.toFixed(2)}</td>
-                      <td className="p-4 text-center font-medium">{player.rebounds.toFixed(2)}</td>
-                      <td className="p-4 text-center font-medium">{player.assists.toFixed(2)}</td>
+                      <td className="p-4 text-center font-medium">{(player.points ?? 0).toFixed(2)}</td>
+                      <td className="p-4 text-center font-medium">{(player.rebounds ?? 0).toFixed(2)}</td>
+                      <td className="p-4 text-center font-medium">{(player.assists ?? 0).toFixed(2)}</td>
                     </tr>
                   ))
                 ) : (

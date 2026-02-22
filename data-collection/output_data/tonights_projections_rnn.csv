@@ -1,427 +1,901 @@
 Name,Team,Opp,Game_Date,Game_Time,Proj_PTS,Proj_REB,Proj_AST,Total_PRA
-Kevin Durant,Suns,Magic,2026-02-21,1st Qtr             ,25.03,4.97,3.67,33.67
-Paolo Banchero,Magic,Suns,2026-02-21,1st Qtr             ,20.88,7.16,4.47,32.5
-Devin Booker,Suns,Magic,2026-02-21,1st Qtr             ,21.78,3.68,5.21,30.68
-Grayson Allen,Suns,Magic,2026-02-21,1st Qtr             ,17.8,3.52,4.73,26.05
-Desmond Bane,Magic,Suns,2026-02-21,1st Qtr             ,19.08,3.62,2.9,25.6
-Nikola Vucevic,Magic,Suns,2026-02-21,1st Qtr             ,15.01,7.49,2.93,25.43
-Anthony Black,Magic,Suns,2026-02-21,1st Qtr             ,17.17,3.7,3.65,24.52
-Jalen Suggs,Magic,Suns,2026-02-21,1st Qtr             ,12.19,4.4,6.67,23.26
-Tobias Harris,Magic,Suns,2026-02-21,1st Qtr             ,13.78,6.33,2.28,22.39
-Mikal Bridges,Suns,Magic,2026-02-21,1st Qtr             ,15.46,3.66,3.06,22.19
-Jalen Smith,Suns,Magic,2026-02-21,1st Qtr             ,12.17,7.81,1.46,21.43
-Collin Gillespie,Suns,Magic,2026-02-21,1st Qtr             ,13.08,3.72,4.59,21.38
-Mark Williams,Suns,Magic,2026-02-21,1st Qtr             ,12.13,7.47,1.35,20.94
-Franz Wagner,Magic,Suns,2026-02-21,1st Qtr             ,14.07,3.83,2.44,20.35
-De'Anthony Melton,Suns,Magic,2026-02-21,1st Qtr             ,13.89,3.28,3.1,20.27
-Kelly Oubre Jr.,Suns,Magic,2026-02-21,1st Qtr             ,12.98,4.9,2.17,20.05
-Royce O'Neale,Suns,Magic,2026-02-21,1st Qtr             ,11.51,4.17,2.4,18.09
-Derrick Jones Jr.,Suns,Magic,2026-02-21,1st Qtr             ,11.72,3.84,1.87,17.43
-Wendell Carter Jr.,Magic,Suns,2026-02-21,1st Qtr             ,9.19,6.62,1.45,17.26
-Jalen Green,Suns,Magic,2026-02-21,1st Qtr             ,11.69,3.18,2.38,17.24
-Jordan Goodwin,Suns,Magic,2026-02-21,1st Qtr             ,10.39,4.33,2.31,17.02
-Cameron Johnson,Suns,Magic,2026-02-21,1st Qtr             ,11.07,3.94,1.97,16.97
-Landry Shamet,Suns,Magic,2026-02-21,1st Qtr             ,11.48,2.71,2.27,16.46
-Jock Landale,Suns,Magic,2026-02-21,1st Qtr             ,9.33,5.52,1.4,16.26
-Oso Ighodaro,Suns,Magic,2026-02-21,1st Qtr             ,6.38,5.19,2.48,14.05
-Moritz Wagner,Magic,Suns,2026-02-21,1st Qtr             ,8.65,4.17,0.94,13.76
-Colin Castleton,Magic,Suns,2026-02-21,1st Qtr             ,6.18,5.03,1.15,12.35
-Tristan da Silva,Magic,Suns,2026-02-21,1st Qtr             ,7.1,2.39,1.29,10.78
-Ryan Dunn,Suns,Magic,2026-02-21,1st Qtr             ,5.73,2.7,1.19,9.62
-Noah Penda,Magic,Suns,2026-02-21,1st Qtr             ,3.74,2.6,0.74,7.08
-Isaiah Livers,Suns,Magic,2026-02-21,1st Qtr             ,2.47,2.23,0.73,5.43
-Bismack Biyombo,Magic,Suns,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Kentavious Caldwell-Pope,Magic,Suns,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Gary Harris,Magic,Suns,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Aaron Gordon,Magic,Suns,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Tyus Jones,Magic,Suns,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Jonathan Isaac,Magic,Suns,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Jevon Carter,Magic,Suns,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Goga Bitadze,Magic,Suns,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Cole Anthony,Magic,Suns,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Mac McClung,Magic,Suns,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Ethan Thompson,Magic,Suns,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Jett Howard,Magic,Suns,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Jase Richardson,Magic,Suns,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Eric Gordon,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Bismack Biyombo,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Seth Curry,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Dario Saric,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Jusuf Nurkic,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Tyus Jones,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Cameron Payne,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Dillon Brooks,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Jevon Carter,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Aaron Holiday,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Josh Okogie,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Deandre Ayton,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Drew Eubanks,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Amir Coffey,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Ty Jerome,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Nick Richards,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-TyTy Washington Jr.,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Jamaree Bouyea,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Rasheer Fleming,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Khaman Maluach,Suns,Magic,2026-02-21,1st Qtr             ,0.0,0.0,0.0,0.0
-Tyrese Maxey,76ers,Pelicans,2026-02-21,7:00 pm ET,24.79,3.66,6.35,34.8
-Julius Randle,Pelicans,76ers,2026-02-21,7:00 pm ET,22.03,6.27,5.41,33.71
-Trey Murphy III,Pelicans,76ers,2026-02-21,7:00 pm ET,22.26,4.21,4.79,31.26
-Brandon Ingram,Pelicans,76ers,2026-02-21,7:00 pm ET,22.69,4.98,3.27,30.93
-Saddiq Bey,Pelicans,76ers,2026-02-21,7:00 pm ET,20.13,6.72,3.4,30.25
-James Harden,76ers,Pelicans,2026-02-21,7:00 pm ET,17.08,5.13,7.88,30.09
-Zion Williamson,Pelicans,76ers,2026-02-21,7:00 pm ET,18.67,6.68,4.05,29.4
-Naji Marshall,Pelicans,76ers,2026-02-21,7:00 pm ET,18.38,5.76,3.49,27.63
-Jrue Holiday,76ers,Pelicans,2026-02-21,7:00 pm ET,17.46,4.73,5.25,27.43
-Jrue Holiday,Pelicans,76ers,2026-02-21,7:00 pm ET,17.46,4.73,5.25,27.43
-Nickeil Alexander-Walker,Pelicans,76ers,2026-02-21,7:00 pm ET,17.59,3.95,4.57,26.11
-Nikola Vucevic,76ers,Pelicans,2026-02-21,7:00 pm ET,15.01,7.49,2.93,25.43
-CJ McCollum,Pelicans,76ers,2026-02-21,7:00 pm ET,18.57,3.38,3.47,25.43
-Josh Hart,Pelicans,76ers,2026-02-21,7:00 pm ET,12.55,6.61,5.17,24.33
-VJ Edgecombe,76ers,Pelicans,2026-02-21,7:00 pm ET,14.2,5.92,3.14,23.26
-Tobias Harris,76ers,Pelicans,2026-02-21,7:00 pm ET,13.78,6.33,2.28,22.39
-Derik Queen,Pelicans,76ers,2026-02-21,7:00 pm ET,12.03,6.45,3.05,21.53
-Jerami Grant,76ers,Pelicans,2026-02-21,7:00 pm ET,15.53,3.61,2.18,21.32
-Jeremiah Fears,Pelicans,76ers,2026-02-21,7:00 pm ET,13.46,3.7,3.36,20.52
-De'Anthony Melton,76ers,Pelicans,2026-02-21,7:00 pm ET,13.89,3.28,3.1,20.27
-Kelly Oubre Jr.,76ers,Pelicans,2026-02-21,7:00 pm ET,12.98,4.9,2.17,20.05
-Isaiah Joe,76ers,Pelicans,2026-02-21,7:00 pm ET,13.61,3.62,1.95,19.18
-Al Horford,76ers,Pelicans,2026-02-21,7:00 pm ET,10.25,5.27,3.32,18.85
-Jonas Valanciunas,Pelicans,76ers,2026-02-21,7:00 pm ET,9.1,6.81,1.36,17.27
-Landry Shamet,76ers,Pelicans,2026-02-21,7:00 pm ET,11.48,2.71,2.27,16.46
-Herbert Jones,Pelicans,76ers,2026-02-21,7:00 pm ET,9.59,3.61,3.0,16.2
-Jose Alvarado,Pelicans,76ers,2026-02-21,7:00 pm ET,10.32,2.64,2.95,15.91
-Kenrich Williams,Pelicans,76ers,2026-02-21,7:00 pm ET,8.17,4.62,1.29,14.08
-Bruce Brown,Pelicans,76ers,2026-02-21,7:00 pm ET,8.88,3.3,1.5,13.67
-Jared McCain,76ers,Pelicans,2026-02-21,7:00 pm ET,9.43,2.53,1.46,13.42
-Julian Champagnie,76ers,Pelicans,2026-02-21,7:00 pm ET,7.37,3.93,1.1,12.39
-Colin Castleton,76ers,Pelicans,2026-02-21,7:00 pm ET,6.18,5.03,1.15,12.35
-Pete Nance,76ers,Pelicans,2026-02-21,7:00 pm ET,6.92,3.36,1.09,11.37
-Haywood Highsmith,76ers,Pelicans,2026-02-21,7:00 pm ET,6.18,3.47,1.13,10.78
-Adem Bona,76ers,Pelicans,2026-02-21,7:00 pm ET,5.67,4.19,0.55,10.42
-Karlo Matkovic,Pelicans,76ers,2026-02-21,7:00 pm ET,5.23,3.83,1.07,10.13
-Javonte Green,Pelicans,76ers,2026-02-21,7:00 pm ET,5.46,2.71,0.76,8.93
-Kyle Lowry,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Eric Gordon,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Nicolas Batum,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-DeAndre Jordan,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Paul George,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Jimmy Butler III,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Andre Drummond,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Seth Curry,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Joel Embiid,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Dario Saric,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-T.J. McConnell,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Cameron Payne,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Buddy Hield,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Georges Niang,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Guerschon Yabusele,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Tony Bradley,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Caleb Martin,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Charles Bassey,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Quentin Grimes,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Matisse Thybulle,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Paul Reed,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Trendon Watford,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Mac McClung,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-MarJon Beauchamp,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Jabari Walker,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Dalen Terry,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Dominick Barlow,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Justin Edwards,76ers,Pelicans,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Eric Gordon,Pelicans,76ers,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-DeAndre Jordan,Pelicans,76ers,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Kelly Olynyk,Pelicans,76ers,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Kevon Looney,Pelicans,76ers,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Larry Nance Jr.,Pelicans,76ers,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Buddy Hield,Pelicans,76ers,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Lonzo Ball,Pelicans,76ers,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Jaxson Hayes,Pelicans,76ers,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Jordan Poole,Pelicans,76ers,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Jeremiah Robinson-Earl,Pelicans,76ers,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Dyson Daniels,Pelicans,76ers,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Bryce McGowens,Pelicans,76ers,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Antonio Reeves,Pelicans,76ers,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Yves Missi,Pelicans,76ers,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Micah Peavy,Pelicans,76ers,2026-02-21,7:00 pm ET,0.0,0.0,0.0,0.0
-Cade Cunningham,Pistons,Bulls,2026-02-21,8:00 pm ET,28.02,5.46,8.87,42.34
-Kawhi Leonard,Spurs,Kings,2026-02-21,8:00 pm ET,28.21,6.59,4.67,39.47
-Victor Wembanyama,Spurs,Kings,2026-02-21,8:00 pm ET,21.89,11.09,2.72,35.71
-LeBron James,Heat,Grizzlies,2026-02-21,8:00 pm ET,22.05,4.99,7.65,34.7
-Ja Morant,Grizzlies,Heat,2026-02-21,8:00 pm ET,21.28,3.19,8.41,32.88
-Bam Adebayo,Heat,Grizzlies,2026-02-21,8:00 pm ET,19.39,10.1,2.58,32.07
-Saddiq Bey,Pistons,Bulls,2026-02-21,8:00 pm ET,20.13,6.72,3.4,30.25
-Jaren Jackson Jr.,Grizzlies,Heat,2026-02-21,8:00 pm ET,21.1,5.94,2.53,29.56
-Grayson Allen,Grizzlies,Heat,2026-02-21,8:00 pm ET,17.8,3.52,4.73,26.05
-Derrick White,Spurs,Kings,2026-02-21,8:00 pm ET,16.57,3.09,6.04,25.71
-Desmond Bane,Grizzlies,Heat,2026-02-21,8:00 pm ET,19.08,3.62,2.9,25.6
-Nikola Vucevic,Bulls,Pistons,2026-02-21,8:00 pm ET,15.01,7.49,2.93,25.43
-Jaime Jaquez Jr.,Heat,Grizzlies,2026-02-21,8:00 pm ET,14.74,5.66,4.37,24.77
-De'Aaron Fox,Kings,Spurs,2026-02-21,8:00 pm ET,15.1,2.7,6.86,24.66
-De'Aaron Fox,Spurs,Kings,2026-02-21,8:00 pm ET,15.1,2.7,6.86,24.66
-Matas Buzelis,Bulls,Pistons,2026-02-21,8:00 pm ET,16.18,6.0,2.34,24.51
-Stephon Castle,Spurs,Kings,2026-02-21,8:00 pm ET,13.96,4.32,5.97,24.25
-DeMar DeRozan,Bulls,Pistons,2026-02-21,8:00 pm ET,17.03,3.06,3.57,23.67
-DeMar DeRozan,Kings,Spurs,2026-02-21,8:00 pm ET,17.03,3.06,3.57,23.67
-DeMar DeRozan,Spurs,Kings,2026-02-21,8:00 pm ET,17.03,3.06,3.57,23.67
-Bobby Portis,Bulls,Pistons,2026-02-21,8:00 pm ET,13.82,6.89,2.57,23.29
-Russell Westbrook,Kings,Spurs,2026-02-21,8:00 pm ET,15.7,2.65,4.38,22.73
-Ayo Dosunmu,Bulls,Pistons,2026-02-21,8:00 pm ET,15.2,3.64,3.88,22.72
-Tobias Harris,Pistons,Bulls,2026-02-21,8:00 pm ET,13.78,6.33,2.28,22.39
-Zach LaVine,Bulls,Pistons,2026-02-21,8:00 pm ET,16.54,3.27,2.5,22.31
-Zach LaVine,Kings,Spurs,2026-02-21,8:00 pm ET,16.54,3.27,2.5,22.31
-Maxime Raynaud,Kings,Spurs,2026-02-21,8:00 pm ET,12.11,8.23,1.39,21.72
-Jalen Smith,Bulls,Pistons,2026-02-21,8:00 pm ET,12.17,7.81,1.46,21.43
-Jerami Grant,Pistons,Bulls,2026-02-21,8:00 pm ET,15.53,3.61,2.18,21.32
-GG Jackson,Grizzlies,Heat,2026-02-21,8:00 pm ET,12.89,5.81,2.41,21.12
-Kel'el Ware,Heat,Grizzlies,2026-02-21,8:00 pm ET,12.43,7.14,1.27,20.84
-Dylan Harper,Spurs,Kings,2026-02-21,8:00 pm ET,12.63,3.97,3.99,20.58
-Nique Clifford,Kings,Spurs,2026-02-21,8:00 pm ET,13.1,4.14,3.12,20.37
-De'Anthony Melton,Grizzlies,Heat,2026-02-21,8:00 pm ET,13.89,3.28,3.1,20.27
-Keldon Johnson,Spurs,Kings,2026-02-21,8:00 pm ET,12.59,4.82,1.99,19.4
-Tim Hardaway Jr.,Pistons,Bulls,2026-02-21,8:00 pm ET,13.59,3.91,1.8,19.31
-Donte DiVincenzo,Kings,Spurs,2026-02-21,8:00 pm ET,11.01,3.48,4.33,18.82
-Collin Sexton,Bulls,Pistons,2026-02-21,8:00 pm ET,13.47,2.92,2.39,18.78
-Malik Monk,Kings,Spurs,2026-02-21,8:00 pm ET,12.92,2.35,3.04,18.31
-Olivier-Maxence Prosper,Grizzlies,Heat,2026-02-21,8:00 pm ET,11.85,4.98,1.32,18.15
-Kris Dunn,Bulls,Pistons,2026-02-21,8:00 pm ET,8.83,3.84,5.42,18.1
-Jay Huff,Grizzlies,Heat,2026-02-21,8:00 pm ET,11.33,4.62,1.63,17.59
-Derrick Jones Jr.,Heat,Grizzlies,2026-02-21,8:00 pm ET,11.72,3.84,1.87,17.43
-Derrick Jones Jr.,Bulls,Pistons,2026-02-21,8:00 pm ET,11.72,3.84,1.87,17.43
-Neemias Queta,Kings,Spurs,2026-02-21,8:00 pm ET,7.7,7.89,1.7,17.29
-Jonas Valanciunas,Grizzlies,Heat,2026-02-21,8:00 pm ET,9.1,6.81,1.36,17.27
-Jonas Valanciunas,Kings,Spurs,2026-02-21,8:00 pm ET,9.1,6.81,1.36,17.27
-Wendell Carter Jr.,Bulls,Pistons,2026-02-21,8:00 pm ET,9.19,6.62,1.45,17.26
-Patrick Williams,Bulls,Pistons,2026-02-21,8:00 pm ET,11.02,3.95,2.11,17.08
-Isaac Okoro,Bulls,Pistons,2026-02-21,8:00 pm ET,11.79,3.28,2.0,17.07
-Devin Vassell,Spurs,Kings,2026-02-21,8:00 pm ET,11.68,3.24,2.13,17.05
-Jordan Goodwin,Grizzlies,Heat,2026-02-21,8:00 pm ET,10.39,4.33,2.31,17.02
-Duncan Robinson,Heat,Grizzlies,2026-02-21,8:00 pm ET,11.97,3.0,1.94,16.91
-Duncan Robinson,Pistons,Bulls,2026-02-21,8:00 pm ET,11.97,3.0,1.94,16.91
-Sandro Mamukelashvili,Spurs,Kings,2026-02-21,8:00 pm ET,10.93,4.26,1.59,16.78
-Ausar Thompson,Pistons,Bulls,2026-02-21,8:00 pm ET,8.2,5.94,2.62,16.76
-Marcus Smart,Grizzlies,Heat,2026-02-21,8:00 pm ET,10.6,2.9,2.91,16.41
-Jock Landale,Grizzlies,Heat,2026-02-21,8:00 pm ET,9.33,5.52,1.4,16.26
-Jock Landale,Spurs,Kings,2026-02-21,8:00 pm ET,9.33,5.52,1.4,16.26
-Daniel Gafford,Bulls,Pistons,2026-02-21,8:00 pm ET,8.02,6.69,1.41,16.12
-Dennis Schroder,Pistons,Bulls,2026-02-21,8:00 pm ET,9.47,2.63,2.89,14.99
-Dennis Schroder,Kings,Spurs,2026-02-21,8:00 pm ET,9.47,2.63,2.89,14.99
-Sam Merrill,Grizzlies,Heat,2026-02-21,8:00 pm ET,10.02,2.68,1.86,14.56
-Harrison Barnes,Kings,Spurs,2026-02-21,8:00 pm ET,9.37,3.13,1.83,14.34
-Harrison Barnes,Spurs,Kings,2026-02-21,8:00 pm ET,9.37,3.13,1.83,14.34
-Simone Fontecchio,Heat,Grizzlies,2026-02-21,8:00 pm ET,9.04,3.58,1.52,14.14
-Simone Fontecchio,Pistons,Bulls,2026-02-21,8:00 pm ET,9.04,3.58,1.52,14.14
-Luke Kennard,Grizzlies,Heat,2026-02-21,8:00 pm ET,9.02,3.03,1.91,13.96
-Luke Kennard,Pistons,Bulls,2026-02-21,8:00 pm ET,9.02,3.03,1.91,13.96
-Bruce Brown,Pistons,Bulls,2026-02-21,8:00 pm ET,8.88,3.3,1.5,13.67
-Daniss Jenkins,Pistons,Bulls,2026-02-21,8:00 pm ET,8.97,2.45,2.12,13.54
-Jake LaRavia,Grizzlies,Heat,2026-02-21,8:00 pm ET,8.99,3.02,1.52,13.53
-Jake LaRavia,Kings,Spurs,2026-02-21,8:00 pm ET,8.99,3.02,1.52,13.53
-Luke Kornet,Bulls,Pistons,2026-02-21,8:00 pm ET,5.25,6.12,1.64,13.02
-Luke Kornet,Spurs,Kings,2026-02-21,8:00 pm ET,5.25,6.12,1.64,13.02
-Vince Williams Jr.,Grizzlies,Heat,2026-02-21,8:00 pm ET,7.14,3.1,2.75,12.99
-Sidy Cissoko,Spurs,Kings,2026-02-21,8:00 pm ET,7.6,3.6,1.73,12.94
-Ronald Holland II,Pistons,Bulls,2026-02-21,8:00 pm ET,7.41,4.0,1.27,12.68
-Julian Champagnie,Spurs,Kings,2026-02-21,8:00 pm ET,7.37,3.93,1.1,12.39
-Colin Castleton,Grizzlies,Heat,2026-02-21,8:00 pm ET,6.18,5.03,1.15,12.35
-Jahmai Mashack,Grizzlies,Heat,2026-02-21,8:00 pm ET,7.75,2.66,1.94,12.35
-PJ Hall,Grizzlies,Heat,2026-02-21,8:00 pm ET,6.17,5.39,0.78,12.33
-Caris LeVert,Pistons,Bulls,2026-02-21,8:00 pm ET,6.6,1.88,2.35,10.83
-Haywood Highsmith,Heat,Grizzlies,2026-02-21,8:00 pm ET,6.18,3.47,1.13,10.78
-Luka Garza,Pistons,Bulls,2026-02-21,8:00 pm ET,5.65,3.07,0.85,9.57
-Dru Smith,Heat,Grizzlies,2026-02-21,8:00 pm ET,4.38,2.27,2.71,9.36
-Javonte Green,Pistons,Bulls,2026-02-21,8:00 pm ET,5.46,2.71,0.76,8.93
-Javonte Green,Bulls,Pistons,2026-02-21,8:00 pm ET,5.46,2.71,0.76,8.93
-Isaiah Livers,Pistons,Bulls,2026-02-21,8:00 pm ET,2.47,2.23,0.73,5.43
-Kyle Lowry,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Mike Conley,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Bismack Biyombo,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Kentavious Caldwell-Pope,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Seth Curry,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Kyle Anderson,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Tyus Jones,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Dillon Brooks,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Marvin Bagley III,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jevon Carter,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Brandon Clarke,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Charles Bassey,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Ty Jerome,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-John Konchar,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Ziaire Williams,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Santi Aldama,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Scotty Pippen Jr.,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Christian Koloko,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Taylor Hendricks,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Kobe Bufkin,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Cam Spencer,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jaylen Wells,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Walter Clayton Jr.,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Yuki Kawamura,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Cedric Coward,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Javon Small,Grizzlies,Heat,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Kyle Lowry,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Kevin Love,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jimmy Butler III,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Kelly Olynyk,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Kyle Anderson,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Andrew Wiggins,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Terry Rozier,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Norman Powell,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Thomas Bryant,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Caleb Martin,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Gabe Vincent,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Tyler Herro,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Precious Achiuwa,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Davion Mitchell,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Nikola Jovic,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jamaree Bouyea,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Alondes Williams,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Pelle Larsson,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Isaiah Stevens,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Myron Gardner,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jahmir Young,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Kasparas Jakucionis,Heat,Grizzlies,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Andre Drummond,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Khris Middleton,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Kelly Olynyk,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Kentavious Caldwell-Pope,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Marvin Bagley III,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Kevin Huerter,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Svi Mykhailiuk,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Quentin Grimes,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Isaiah Stewart,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Paul Reed,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Lindy Waters III,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Stanley Umude,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Micah Potter,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jaden Ivey,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jalen Duren,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Wendell Moore Jr.,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Ron Harper Jr.,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Marcus Sasser,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Buddy Boeheim,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Alondes Williams,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Bobi Klintman,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Tolu Smith,Pistons,Bulls,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jimmy Butler III,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Andre Drummond,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Doug McDermott,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Cameron Payne,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Guerschon Yabusele,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Alex Caruso,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Lonzo Ball,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Lauri Markkanen,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Tony Bradley,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jevon Carter,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Kevin Huerter,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Anfernee Simons,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Coby White,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Tre Jones,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Nick Richards,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Josh Giddey,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Mac McClung,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jaden Ivey,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Dalen Terry,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Julian Phillips,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Emanuel Miller,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Rob Dillingham,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jahmir Young,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Yuki Kawamura,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Lachlan Olbrich,Bulls,Pistons,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Seth Curry,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Doug McDermott,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Dario Saric,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Bogdan Bogdanovic,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Domantas Sabonis,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Buddy Hield,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Skal Labissiere,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Marvin Bagley III,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Kevin Huerter,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jordan McLaughlin,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Drew Eubanks,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-De'Andre Hunter,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Precious Achiuwa,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Davion Mitchell,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Keegan Murray,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Keon Ellis,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Daeqwon Plowden,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Isaiah Stevens,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Devin Carter,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Isaiah Crawford,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Dylan Cardwell,Kings,Spurs,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Bismack Biyombo,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Kelly Olynyk,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Doug McDermott,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Kyle Anderson,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jakob Poeltl,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jordan McLaughlin,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Drew Eubanks,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Charles Bassey,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Tre Jones,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Lindy Waters III,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Stanley Umude,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Malaki Branham,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Blake Wesley,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jeremy Sochan,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Jamaree Bouyea,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Dominick Barlow,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Carter Bryant,Spurs,Kings,2026-02-21,8:00 pm ET,0.0,0.0,0.0,0.0
-Alperen Sengun,Rockets,Knicks,2026-02-21,8:30 pm ET,20.46,9.47,5.6,35.53
-Jalen Brunson,Knicks,Rockets,2026-02-21,8:30 pm ET,25.09,3.98,6.27,35.35
-Julius Randle,Knicks,Rockets,2026-02-21,8:30 pm ET,22.03,6.27,5.41,33.71
-Kevin Durant,Rockets,Knicks,2026-02-21,8:30 pm ET,25.03,4.97,3.67,33.67
-Karl-Anthony Towns,Knicks,Rockets,2026-02-21,8:30 pm ET,16.18,11.56,2.46,30.2
-James Harden,Rockets,Knicks,2026-02-21,8:30 pm ET,17.08,5.13,7.88,30.09
-Kevin Porter Jr.,Rockets,Knicks,2026-02-21,8:30 pm ET,16.81,4.88,7.21,28.9
-Immanuel Quickley,Knicks,Rockets,2026-02-21,8:30 pm ET,15.95,4.4,4.9,25.25
-RJ Barrett,Knicks,Rockets,2026-02-21,8:30 pm ET,15.84,5.36,3.74,24.94
-Josh Hart,Knicks,Rockets,2026-02-21,8:30 pm ET,12.55,6.61,5.17,24.33
-Bobby Portis,Knicks,Rockets,2026-02-21,8:30 pm ET,13.82,6.89,2.57,23.29
-Jabari Smith Jr.,Rockets,Knicks,2026-02-21,8:30 pm ET,14.43,6.45,2.07,22.95
-Russell Westbrook,Rockets,Knicks,2026-02-21,8:30 pm ET,15.7,2.65,4.38,22.73
-Mikal Bridges,Knicks,Rockets,2026-02-21,8:30 pm ET,15.46,3.66,3.06,22.19
-Miles McBride,Knicks,Rockets,2026-02-21,8:30 pm ET,13.71,2.92,3.41,20.04
-Tim Hardaway Jr.,Knicks,Rockets,2026-02-21,8:30 pm ET,13.59,3.91,1.8,19.31
-Donte DiVincenzo,Knicks,Rockets,2026-02-21,8:30 pm ET,11.01,3.48,4.33,18.82
-Reed Sheppard,Rockets,Knicks,2026-02-21,8:30 pm ET,12.79,3.01,2.44,18.24
-Jalen Green,Rockets,Knicks,2026-02-21,8:30 pm ET,11.69,3.18,2.38,17.24
-Landry Shamet,Knicks,Rockets,2026-02-21,8:30 pm ET,11.48,2.71,2.27,16.46
-Jock Landale,Rockets,Knicks,2026-02-21,8:30 pm ET,9.33,5.52,1.4,16.26
-Jose Alvarado,Knicks,Rockets,2026-02-21,8:30 pm ET,10.32,2.64,2.95,15.91
-Dennis Schroder,Rockets,Knicks,2026-02-21,8:30 pm ET,9.47,2.63,2.89,14.99
-Mitchell Robinson,Knicks,Rockets,2026-02-21,8:30 pm ET,5.88,7.54,0.92,14.34
-Luke Kornet,Knicks,Rockets,2026-02-21,8:30 pm ET,5.25,6.12,1.64,13.02
-Clint Capela,Rockets,Knicks,2026-02-21,8:30 pm ET,4.46,4.75,0.78,9.99
-Mohamed Diawara,Knicks,Rockets,2026-02-21,8:30 pm ET,5.89,2.12,0.96,8.98
-Dorian Finney-Smith,Rockets,Knicks,2026-02-21,8:30 pm ET,5.25,2.29,1.06,8.6
-Kyle Lowry,Rockets,Knicks,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Eric Gordon,Rockets,Knicks,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Kelly Olynyk,Rockets,Knicks,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Isaiah Hartenstein,Rockets,Knicks,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Dillon Brooks,Rockets,Knicks,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Aaron Holiday,Rockets,Knicks,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Josh Okogie,Rockets,Knicks,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Jae'Sean Tate,Rockets,Knicks,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-TyTy Washington Jr.,Rockets,Knicks,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Tari Eason,Rockets,Knicks,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-JD Davison,Rockets,Knicks,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Nate Williams,Rockets,Knicks,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Amen Thompson,Rockets,Knicks,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Isaiah Crawford,Rockets,Knicks,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-DeAndre Jordan,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Jordan Clarkson,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Doug McDermott,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Kristaps Porzingis,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Cameron Payne,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Guerschon Yabusele,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-OG Anunoby,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Isaiah Hartenstein,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Svi Mykhailiuk,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Quentin Grimes,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Obi Toppin,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Precious Achiuwa,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Ariel Hukporti,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Jericho Sims,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-MarJon Beauchamp,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Jeremy Sochan,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Kevin McCullar Jr.,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
-Tyler Kolek,Knicks,Rockets,2026-02-21,8:30 pm ET,0.0,0.0,0.0,0.0
+Tyrese Maxey,76ers,Pelicans,2026-02-22,00:00,25.56,4.0,5.86,35.41
+Julius Randle,Pelicans,76ers,2026-02-22,00:00,22.89,6.64,5.33,34.86
+Trey Murphy III,Pelicans,76ers,2026-02-22,00:00,22.71,4.2,4.95,31.86
+James Harden,76ers,Pelicans,2026-02-22,00:00,18.23,5.09,8.23,31.54
+Brandon Ingram,Pelicans,76ers,2026-02-22,00:00,22.07,5.01,3.37,30.45
+Zion Williamson,Pelicans,76ers,2026-02-22,00:00,20.38,5.85,4.13,30.36
+Saddiq Bey,Pelicans,76ers,2026-02-22,00:00,19.12,5.95,2.96,28.04
+Naji Marshall,Pelicans,76ers,2026-02-22,00:00,18.79,5.59,3.35,27.73
+Nickeil Alexander-Walker,Pelicans,76ers,2026-02-22,00:00,18.3,4.05,4.77,27.11
+Jrue Holiday,76ers,Pelicans,2026-02-22,00:00,17.32,4.62,5.1,27.04
+Jrue Holiday,Pelicans,76ers,2026-02-22,00:00,17.32,4.62,5.1,27.04
+CJ McCollum,Pelicans,76ers,2026-02-22,00:00,18.98,3.22,3.72,25.92
+Nikola Vucevic,76ers,Pelicans,2026-02-22,00:00,14.71,7.68,2.37,24.76
+VJ Edgecombe,76ers,Pelicans,2026-02-22,00:00,15.03,5.97,2.9,23.91
+Tobias Harris,76ers,Pelicans,2026-02-22,00:00,14.15,6.98,2.05,23.18
+Josh Hart,Pelicans,76ers,2026-02-22,00:00,11.65,5.89,4.97,22.51
+Jeremiah Fears,Pelicans,76ers,2026-02-22,00:00,13.77,4.35,4.09,22.22
+Kelly Oubre Jr.,76ers,Pelicans,2026-02-22,00:00,14.22,5.03,2.37,21.63
+Derik Queen,Pelicans,76ers,2026-02-22,00:00,11.17,6.51,2.31,19.99
+Jerami Grant,76ers,Pelicans,2026-02-22,00:00,15.0,3.2,1.78,19.98
+De'Anthony Melton,76ers,Pelicans,2026-02-22,00:00,13.58,3.13,2.96,19.66
+Al Horford,76ers,Pelicans,2026-02-22,00:00,10.02,5.07,3.1,18.19
+Isaiah Joe,76ers,Pelicans,2026-02-22,00:00,13.11,3.16,1.74,18.0
+Herbert Jones,Pelicans,76ers,2026-02-22,00:00,9.95,3.62,3.34,16.91
+Jose Alvarado,Pelicans,76ers,2026-02-22,00:00,10.34,2.47,3.45,16.27
+Landry Shamet,76ers,Pelicans,2026-02-22,00:00,11.22,2.26,2.47,15.95
+Jonas Valanciunas,Pelicans,76ers,2026-02-22,00:00,8.32,6.07,0.95,15.34
+Jared McCain,76ers,Pelicans,2026-02-22,00:00,9.99,2.86,1.57,14.42
+Julian Champagnie,76ers,Pelicans,2026-02-22,00:00,8.04,4.51,1.34,13.9
+Bruce Brown,Pelicans,76ers,2026-02-22,00:00,8.58,3.34,1.41,13.33
+Kenrich Williams,Pelicans,76ers,2026-02-22,00:00,7.73,4.11,1.18,13.02
+Adem Bona,76ers,Pelicans,2026-02-22,00:00,6.64,5.62,0.67,12.93
+Pete Nance,76ers,Pelicans,2026-02-22,00:00,7.93,3.72,1.15,12.8
+Colin Castleton,76ers,Pelicans,2026-02-22,00:00,5.41,4.77,1.17,11.35
+Karlo Matkovic,Pelicans,76ers,2026-02-22,00:00,5.88,4.17,1.1,11.14
+Javonte Green,Pelicans,76ers,2026-02-22,00:00,5.9,3.1,0.88,9.88
+Haywood Highsmith,76ers,Pelicans,2026-02-22,00:00,5.2,2.88,1.04,9.11
+Kyle Lowry,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Eric Gordon,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Nicolas Batum,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+DeAndre Jordan,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Paul George,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Jimmy Butler III,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Andre Drummond,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Seth Curry,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Joel Embiid,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Dario Saric,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+T.J. McConnell,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Cameron Payne,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Buddy Hield,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Georges Niang,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Guerschon Yabusele,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Tony Bradley,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Caleb Martin,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Charles Bassey,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Quentin Grimes,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Matisse Thybulle,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Paul Reed,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Trendon Watford,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Mac McClung,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+MarJon Beauchamp,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Jabari Walker,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Dalen Terry,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Tyrese Martin,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Dominick Barlow,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Justin Edwards,76ers,Pelicans,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Eric Gordon,Pelicans,76ers,2026-02-22,00:00,0.0,0.0,0.0,0.0
+DeAndre Jordan,Pelicans,76ers,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Kelly Olynyk,Pelicans,76ers,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Kevon Looney,Pelicans,76ers,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Larry Nance Jr.,Pelicans,76ers,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Buddy Hield,Pelicans,76ers,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Lonzo Ball,Pelicans,76ers,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Jaxson Hayes,Pelicans,76ers,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Jordan Poole,Pelicans,76ers,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Jeremiah Robinson-Earl,Pelicans,76ers,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Dyson Daniels,Pelicans,76ers,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Bryce McGowens,Pelicans,76ers,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Antonio Reeves,Pelicans,76ers,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Yves Missi,Pelicans,76ers,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Micah Peavy,Pelicans,76ers,2026-02-22,00:00,0.0,0.0,0.0,0.0
+Cade Cunningham,Pistons,Bulls,2026-02-22,01:00,26.49,6.44,9.11,42.03
+Victor Wembanyama,Spurs,Kings,2026-02-22,01:00,24.48,11.5,3.3,39.29
+Kawhi Leonard,Spurs,Kings,2026-02-22,01:00,27.17,7.13,4.65,38.95
+LeBron James,Heat,Grizzlies,2026-02-22,01:00,21.77,5.18,7.83,34.78
+Bam Adebayo,Heat,Grizzlies,2026-02-22,01:00,19.62,9.72,3.06,32.39
+Jaren Jackson Jr.,Grizzlies,Heat,2026-02-22,01:00,20.89,5.95,2.53,29.38
+Grayson Allen,Grizzlies,Heat,2026-02-22,01:00,19.3,4.2,4.58,28.07
+Saddiq Bey,Pistons,Bulls,2026-02-22,01:00,19.12,5.95,2.96,28.04
+Derrick White,Spurs,Kings,2026-02-22,01:00,17.01,3.44,6.51,26.95
+Desmond Bane,Grizzlies,Heat,2026-02-22,01:00,19.71,3.49,3.03,26.22
+De'Aaron Fox,Kings,Spurs,2026-02-22,01:00,15.31,2.76,6.78,24.85
+De'Aaron Fox,Spurs,Kings,2026-02-22,01:00,15.31,2.76,6.78,24.85
+Nikola Vucevic,Bulls,Pistons,2026-02-22,01:00,14.71,7.68,2.37,24.76
+Jaime Jaquez Jr.,Heat,Grizzlies,2026-02-22,01:00,14.59,5.63,4.13,24.34
+Maxime Raynaud,Kings,Spurs,2026-02-22,01:00,12.95,9.83,1.4,24.18
+DeMar DeRozan,Bulls,Pistons,2026-02-22,01:00,17.06,2.95,3.73,23.74
+DeMar DeRozan,Kings,Spurs,2026-02-22,01:00,17.06,2.95,3.73,23.74
+DeMar DeRozan,Spurs,Kings,2026-02-22,01:00,17.06,2.95,3.73,23.74
+Stephon Castle,Spurs,Kings,2026-02-22,01:00,13.77,4.37,5.2,23.35
+Bobby Portis,Bulls,Pistons,2026-02-22,01:00,13.95,7.12,2.15,23.22
+GG Jackson,Grizzlies,Heat,2026-02-22,01:00,14.75,5.9,2.54,23.19
+Tobias Harris,Pistons,Bulls,2026-02-22,01:00,14.15,6.98,2.05,23.18
+Matas Buzelis,Bulls,Pistons,2026-02-22,01:00,15.16,5.7,2.3,23.17
+Ayo Dosunmu,Bulls,Pistons,2026-02-22,01:00,15.38,3.77,3.87,23.02
+Kel'el Ware,Heat,Grizzlies,2026-02-22,01:00,12.2,8.7,1.04,21.94
+Zach LaVine,Bulls,Pistons,2026-02-22,01:00,16.27,2.68,2.44,21.39
+Zach LaVine,Kings,Spurs,2026-02-22,01:00,16.27,2.68,2.44,21.39
+Dylan Harper,Spurs,Kings,2026-02-22,01:00,12.87,3.84,4.08,20.79
+Jalen Smith,Bulls,Pistons,2026-02-22,01:00,11.51,7.66,1.14,20.31
+Nique Clifford,Kings,Spurs,2026-02-22,01:00,12.38,4.05,3.6,20.03
+Jerami Grant,Pistons,Bulls,2026-02-22,01:00,15.0,3.2,1.78,19.98
+Russell Westbrook,Kings,Spurs,2026-02-22,01:00,13.84,2.44,3.64,19.91
+Donte DiVincenzo,Kings,Spurs,2026-02-22,01:00,11.29,3.89,4.72,19.89
+De'Anthony Melton,Grizzlies,Heat,2026-02-22,01:00,13.58,3.13,2.96,19.66
+Malik Monk,Kings,Spurs,2026-02-22,01:00,13.72,2.29,3.53,19.54
+Kris Dunn,Bulls,Pistons,2026-02-22,01:00,9.35,3.78,5.96,19.09
+Ausar Thompson,Pistons,Bulls,2026-02-22,01:00,9.57,6.01,3.47,19.05
+Tim Hardaway Jr.,Pistons,Bulls,2026-02-22,01:00,13.4,3.71,1.37,18.48
+Derrick Jones Jr.,Heat,Grizzlies,2026-02-22,01:00,12.47,3.77,2.0,18.24
+Derrick Jones Jr.,Bulls,Pistons,2026-02-22,01:00,12.47,3.77,2.0,18.24
+Wendell Carter Jr.,Bulls,Pistons,2026-02-22,01:00,8.87,7.5,1.82,18.2
+Isaac Okoro,Bulls,Pistons,2026-02-22,01:00,12.74,3.26,2.2,18.2
+Marcus Smart,Grizzlies,Heat,2026-02-22,01:00,11.36,3.22,3.44,18.02
+Olivier-Maxence Prosper,Grizzlies,Heat,2026-02-22,01:00,11.79,4.87,1.24,17.9
+Jordan Goodwin,Grizzlies,Heat,2026-02-22,01:00,11.14,4.59,2.05,17.78
+Keldon Johnson,Spurs,Kings,2026-02-22,01:00,11.69,4.39,1.55,17.63
+Jay Huff,Grizzlies,Heat,2026-02-22,01:00,11.08,4.49,1.63,17.2
+Duncan Robinson,Heat,Grizzlies,2026-02-22,01:00,12.27,2.79,1.79,16.85
+Duncan Robinson,Pistons,Bulls,2026-02-22,01:00,12.27,2.79,1.79,16.85
+Devin Vassell,Spurs,Kings,2026-02-22,01:00,10.89,3.22,2.19,16.31
+Neemias Queta,Kings,Spurs,2026-02-22,01:00,7.09,7.51,1.66,16.27
+Jock Landale,Grizzlies,Heat,2026-02-22,01:00,8.85,5.37,1.25,15.47
+Jock Landale,Spurs,Kings,2026-02-22,01:00,8.85,5.37,1.25,15.47
+Sandro Mamukelashvili,Spurs,Kings,2026-02-22,01:00,10.15,4.01,1.25,15.4
+Jonas Valanciunas,Grizzlies,Heat,2026-02-22,01:00,8.32,6.07,0.95,15.34
+Jonas Valanciunas,Kings,Spurs,2026-02-22,01:00,8.32,6.07,0.95,15.34
+Daniel Gafford,Bulls,Pistons,2026-02-22,01:00,7.73,6.31,1.19,15.23
+Harrison Barnes,Kings,Spurs,2026-02-22,01:00,9.86,3.21,1.92,14.99
+Harrison Barnes,Spurs,Kings,2026-02-22,01:00,9.86,3.21,1.92,14.99
+Patrick Williams,Bulls,Pistons,2026-02-22,01:00,9.48,3.36,1.86,14.69
+Collin Sexton,Bulls,Pistons,2026-02-22,01:00,10.56,2.2,1.85,14.61
+Sam Merrill,Grizzlies,Heat,2026-02-22,01:00,9.78,2.44,2.1,14.31
+Luke Kennard,Grizzlies,Heat,2026-02-22,01:00,9.0,3.33,1.95,14.28
+Luke Kennard,Pistons,Bulls,2026-02-22,01:00,9.0,3.33,1.95,14.28
+Dennis Schroder,Pistons,Bulls,2026-02-22,01:00,8.83,2.38,2.87,14.08
+Dennis Schroder,Kings,Spurs,2026-02-22,01:00,8.83,2.38,2.87,14.08
+Julian Champagnie,Spurs,Kings,2026-02-22,01:00,8.04,4.51,1.34,13.9
+Jake LaRavia,Grizzlies,Heat,2026-02-22,01:00,8.82,3.15,1.44,13.42
+Jake LaRavia,Kings,Spurs,2026-02-22,01:00,8.82,3.15,1.44,13.42
+Bruce Brown,Pistons,Bulls,2026-02-22,01:00,8.58,3.34,1.41,13.33
+Vince Williams Jr.,Grizzlies,Heat,2026-02-22,01:00,7.25,3.22,2.83,13.3
+Jahmai Mashack,Grizzlies,Heat,2026-02-22,01:00,8.44,2.73,2.02,13.2
+Ronald Holland II,Pistons,Bulls,2026-02-22,01:00,6.94,4.15,1.39,12.48
+Luke Kornet,Bulls,Pistons,2026-02-22,01:00,5.05,5.69,1.57,12.31
+Luke Kornet,Spurs,Kings,2026-02-22,01:00,5.05,5.69,1.57,12.31
+Daniss Jenkins,Pistons,Bulls,2026-02-22,01:00,7.99,2.38,1.81,12.18
+Sidy Cissoko,Spurs,Kings,2026-02-22,01:00,6.56,3.55,1.73,11.84
+Caris LeVert,Pistons,Bulls,2026-02-22,01:00,7.0,1.92,2.61,11.53
+PJ Hall,Grizzlies,Heat,2026-02-22,01:00,5.64,5.19,0.69,11.52
+Colin Castleton,Grizzlies,Heat,2026-02-22,01:00,5.41,4.77,1.17,11.35
+Javonte Green,Pistons,Bulls,2026-02-22,01:00,5.9,3.1,0.88,9.88
+Javonte Green,Bulls,Pistons,2026-02-22,01:00,5.9,3.1,0.88,9.88
+Simone Fontecchio,Heat,Grizzlies,2026-02-22,01:00,6.13,2.54,1.14,9.81
+Simone Fontecchio,Pistons,Bulls,2026-02-22,01:00,6.13,2.54,1.14,9.81
+Dru Smith,Heat,Grizzlies,2026-02-22,01:00,4.22,2.63,2.66,9.51
+Haywood Highsmith,Heat,Grizzlies,2026-02-22,01:00,5.2,2.88,1.04,9.11
+Luka Garza,Pistons,Bulls,2026-02-22,01:00,4.83,2.69,0.6,8.13
+Isaiah Livers,Pistons,Bulls,2026-02-22,01:00,3.16,2.27,0.83,6.26
+Kyle Lowry,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Mike Conley,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Bismack Biyombo,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Kentavious Caldwell-Pope,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Seth Curry,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Kyle Anderson,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Tyus Jones,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Dillon Brooks,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Marvin Bagley III,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jevon Carter,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Brandon Clarke,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Charles Bassey,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Ty Jerome,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+John Konchar,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Ziaire Williams,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Santi Aldama,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Scotty Pippen Jr.,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Christian Koloko,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Taylor Hendricks,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Kobe Bufkin,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Cam Spencer,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jaylen Wells,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Walter Clayton Jr.,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Yuki Kawamura,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Cedric Coward,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Javon Small,Grizzlies,Heat,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Kyle Lowry,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Kevin Love,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jimmy Butler III,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Kelly Olynyk,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Kyle Anderson,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Andrew Wiggins,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Terry Rozier,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Norman Powell,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Thomas Bryant,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Caleb Martin,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Gabe Vincent,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Tyler Herro,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Precious Achiuwa,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Davion Mitchell,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Nikola Jovic,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jamaree Bouyea,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Alondes Williams,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Pelle Larsson,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Isaiah Stevens,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Myron Gardner,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jahmir Young,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Kasparas Jakucionis,Heat,Grizzlies,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Andre Drummond,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Khris Middleton,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Kelly Olynyk,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Kentavious Caldwell-Pope,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Marvin Bagley III,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Kevin Huerter,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Svi Mykhailiuk,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Quentin Grimes,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Isaiah Stewart,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Paul Reed,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Lindy Waters III,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Stanley Umude,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Micah Potter,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jaden Ivey,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jalen Duren,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Wendell Moore Jr.,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Ron Harper Jr.,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Marcus Sasser,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Buddy Boeheim,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Alondes Williams,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Bobi Klintman,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Tolu Smith,Pistons,Bulls,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jimmy Butler III,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Andre Drummond,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Doug McDermott,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Cameron Payne,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Guerschon Yabusele,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Alex Caruso,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Lonzo Ball,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Lauri Markkanen,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Tony Bradley,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jevon Carter,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Kevin Huerter,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Anfernee Simons,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Coby White,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Tre Jones,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Nick Richards,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Josh Giddey,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Mac McClung,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jaden Ivey,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Dalen Terry,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Julian Phillips,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Emanuel Miller,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Rob Dillingham,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jahmir Young,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Yuki Kawamura,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Lachlan Olbrich,Bulls,Pistons,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Seth Curry,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Doug McDermott,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Dario Saric,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Bogdan Bogdanovic,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Domantas Sabonis,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Buddy Hield,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Skal Labissiere,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Marvin Bagley III,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Kevin Huerter,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jordan McLaughlin,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Drew Eubanks,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+De'Andre Hunter,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Precious Achiuwa,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Davion Mitchell,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Keegan Murray,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Keon Ellis,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Daeqwon Plowden,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Isaiah Stevens,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Devin Carter,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Isaiah Crawford,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Dylan Cardwell,Kings,Spurs,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Bismack Biyombo,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Kelly Olynyk,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Doug McDermott,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Kyle Anderson,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jakob Poeltl,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jordan McLaughlin,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Drew Eubanks,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Charles Bassey,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Tre Jones,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Lindy Waters III,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Stanley Umude,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Malaki Branham,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Blake Wesley,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jamaree Bouyea,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Dominick Barlow,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Carter Bryant,Spurs,Kings,2026-02-22,01:00,0.0,0.0,0.0,0.0
+Jalen Brunson,Knicks,Rockets,2026-02-22,01:30,24.3,4.28,6.34,34.92
+Julius Randle,Knicks,Rockets,2026-02-22,01:30,22.89,6.64,5.33,34.86
+Alperen Sengun,Rockets,Knicks,2026-02-22,01:30,18.36,9.14,5.9,33.4
+Kevin Durant,Rockets,Knicks,2026-02-22,01:30,24.15,5.15,3.93,33.23
+Karl-Anthony Towns,Knicks,Rockets,2026-02-22,01:30,18.01,12.44,2.5,32.95
+James Harden,Rockets,Knicks,2026-02-22,01:30,18.23,5.09,8.23,31.54
+Kevin Porter Jr.,Rockets,Knicks,2026-02-22,01:30,17.73,4.85,7.46,30.04
+Immanuel Quickley,Knicks,Rockets,2026-02-22,01:30,17.03,4.42,4.68,26.13
+RJ Barrett,Knicks,Rockets,2026-02-22,01:30,15.31,5.45,3.38,24.14
+Bobby Portis,Knicks,Rockets,2026-02-22,01:30,13.95,7.12,2.15,23.22
+Jabari Smith Jr.,Rockets,Knicks,2026-02-22,01:30,15.01,6.42,1.68,23.1
+Jalen Green,Rockets,Knicks,2026-02-22,01:30,15.82,3.93,3.15,22.9
+Josh Hart,Knicks,Rockets,2026-02-22,01:30,11.65,5.89,4.97,22.51
+Mikal Bridges,Knicks,Rockets,2026-02-22,01:30,14.64,3.71,3.07,21.43
+Miles McBride,Knicks,Rockets,2026-02-22,01:30,13.66,2.94,3.46,20.07
+Russell Westbrook,Rockets,Knicks,2026-02-22,01:30,13.84,2.44,3.64,19.91
+Donte DiVincenzo,Knicks,Rockets,2026-02-22,01:30,11.29,3.89,4.72,19.89
+Tim Hardaway Jr.,Knicks,Rockets,2026-02-22,01:30,13.4,3.71,1.37,18.48
+Reed Sheppard,Rockets,Knicks,2026-02-22,01:30,11.92,2.98,2.46,17.36
+Jose Alvarado,Knicks,Rockets,2026-02-22,01:30,10.34,2.47,3.45,16.27
+Landry Shamet,Knicks,Rockets,2026-02-22,01:30,11.22,2.26,2.47,15.95
+Jock Landale,Rockets,Knicks,2026-02-22,01:30,8.85,5.37,1.25,15.47
+Dennis Schroder,Rockets,Knicks,2026-02-22,01:30,8.83,2.38,2.87,14.08
+Mitchell Robinson,Knicks,Rockets,2026-02-22,01:30,5.79,6.52,0.68,12.99
+Luke Kornet,Knicks,Rockets,2026-02-22,01:30,5.05,5.69,1.57,12.31
+Dorian Finney-Smith,Rockets,Knicks,2026-02-22,01:30,5.92,2.75,1.27,9.94
+Clint Capela,Rockets,Knicks,2026-02-22,01:30,4.17,3.84,0.64,8.65
+Mohamed Diawara,Knicks,Rockets,2026-02-22,01:30,4.76,1.98,0.88,7.62
+Kyle Lowry,Rockets,Knicks,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Eric Gordon,Rockets,Knicks,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Kelly Olynyk,Rockets,Knicks,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Isaiah Hartenstein,Rockets,Knicks,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Dillon Brooks,Rockets,Knicks,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Aaron Holiday,Rockets,Knicks,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Josh Okogie,Rockets,Knicks,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Jae'Sean Tate,Rockets,Knicks,2026-02-22,01:30,0.0,0.0,0.0,0.0
+TyTy Washington Jr.,Rockets,Knicks,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Tari Eason,Rockets,Knicks,2026-02-22,01:30,0.0,0.0,0.0,0.0
+JD Davison,Rockets,Knicks,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Nate Williams,Rockets,Knicks,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Amen Thompson,Rockets,Knicks,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Isaiah Crawford,Rockets,Knicks,2026-02-22,01:30,0.0,0.0,0.0,0.0
+DeAndre Jordan,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Jordan Clarkson,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Doug McDermott,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Kristaps Porzingis,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Cameron Payne,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Guerschon Yabusele,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+OG Anunoby,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Isaiah Hartenstein,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Svi Mykhailiuk,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Quentin Grimes,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Obi Toppin,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Precious Achiuwa,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Ariel Hukporti,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Jericho Sims,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+MarJon Beauchamp,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Kevin McCullar Jr.,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Tyler Kolek,Knicks,Rockets,2026-02-22,01:30,0.0,0.0,0.0,0.0
+Shai Gilgeous-Alexander,Thunder,Cavaliers,2026-02-22,18:00,28.63,4.98,6.93,40.53
+Donovan Mitchell,Cavaliers,Thunder,2026-02-22,18:00,25.41,3.6,6.1,35.1
+LeBron James,Cavaliers,Thunder,2026-02-22,18:00,21.77,5.18,7.83,34.78
+Kevin Durant,Thunder,Cavaliers,2026-02-22,18:00,24.15,5.15,3.93,33.23
+James Harden,Cavaliers,Thunder,2026-02-22,18:00,18.23,5.09,8.23,31.54
+James Harden,Thunder,Cavaliers,2026-02-22,18:00,18.23,5.09,8.23,31.54
+Jarrett Allen,Cavaliers,Thunder,2026-02-22,18:00,18.31,10.39,1.94,30.64
+Kevin Porter Jr.,Cavaliers,Thunder,2026-02-22,18:00,17.73,4.85,7.46,30.04
+Evan Mobley,Cavaliers,Thunder,2026-02-22,18:00,17.15,8.65,3.45,29.26
+Jalen Williams,Thunder,Cavaliers,2026-02-22,18:00,16.48,3.4,5.03,24.92
+Jerami Grant,Thunder,Cavaliers,2026-02-22,18:00,15.0,3.2,1.78,19.98
+Russell Westbrook,Thunder,Cavaliers,2026-02-22,18:00,13.84,2.44,3.64,19.91
+Cason Wallace,Thunder,Cavaliers,2026-02-22,18:00,12.37,3.33,3.57,19.28
+Sharife Cooper,Cavaliers,Thunder,2026-02-22,18:00,11.18,3.91,3.87,18.96
+Isaac Okoro,Cavaliers,Thunder,2026-02-22,18:00,12.74,3.26,2.2,18.2
+Al Horford,Thunder,Cavaliers,2026-02-22,18:00,10.02,5.07,3.1,18.19
+Isaiah Joe,Thunder,Cavaliers,2026-02-22,18:00,13.11,3.16,1.74,18.0
+Jaylon Tyson,Cavaliers,Thunder,2026-02-22,18:00,10.64,3.82,1.87,16.33
+Aaron Wiggins,Thunder,Cavaliers,2026-02-22,18:00,10.75,3.57,1.71,16.02
+Jaylin Williams,Thunder,Cavaliers,2026-02-22,18:00,7.9,5.01,2.29,15.2
+Collin Sexton,Cavaliers,Thunder,2026-02-22,18:00,10.56,2.2,1.85,14.61
+Jared McCain,Thunder,Cavaliers,2026-02-22,18:00,9.99,2.86,1.57,14.42
+Sam Merrill,Cavaliers,Thunder,2026-02-22,18:00,9.78,2.44,2.1,14.31
+Dennis Schroder,Cavaliers,Thunder,2026-02-22,18:00,8.83,2.38,2.87,14.08
+Dennis Schroder,Thunder,Cavaliers,2026-02-22,18:00,8.83,2.38,2.87,14.08
+Kenrich Williams,Thunder,Cavaliers,2026-02-22,18:00,7.73,4.11,1.18,13.02
+Pete Nance,Cavaliers,Thunder,2026-02-22,18:00,7.93,3.72,1.15,12.8
+Luke Kornet,Cavaliers,Thunder,2026-02-22,18:00,5.05,5.69,1.57,12.31
+Dean Wade,Cavaliers,Thunder,2026-02-22,18:00,6.55,4.62,1.12,12.29
+Caris LeVert,Cavaliers,Thunder,2026-02-22,18:00,7.0,1.92,2.61,11.53
+Nae'Qwan Tomlin,Cavaliers,Thunder,2026-02-22,18:00,6.72,2.69,1.02,10.43
+Javonte Green,Cavaliers,Thunder,2026-02-22,18:00,5.9,3.1,0.88,9.88
+Branden Carlson,Thunder,Cavaliers,2026-02-22,18:00,4.87,3.29,0.55,8.71
+Kevin Love,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Andre Drummond,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Seth Curry,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Jordan Clarkson,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Cameron Payne,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Larry Nance Jr.,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Georges Niang,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Lonzo Ball,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Lauri Markkanen,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Isaiah Hartenstein,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Thomas Bryant,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+De'Andre Hunter,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Ty Jerome,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Keon Ellis,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Craig Porter Jr.,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Tyrese Proctor,Cavaliers,Thunder,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Paul George,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Bismack Biyombo,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Doug McDermott,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Dario Saric,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Cameron Payne,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Domantas Sabonis,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Alex Caruso,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Isaiah Hartenstein,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Tony Bradley,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Svi Mykhailiuk,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Luguentz Dort,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Ty Jerome,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Vit Krejci,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Lindy Waters III,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Jeremiah Robinson-Earl,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Tre Mann,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Josh Giddey,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Chet Holmgren,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Ousmane Dieng,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Buddy Boeheim,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Ajay Mitchell,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Chris Youngblood,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Brooks Barnhizer,Thunder,Cavaliers,2026-02-22,18:00,0.0,0.0,0.0,0.0
+Nikola Jokic,Nuggets,Warriors,2026-02-22,20:30,26.58,12.49,9.61,48.68
+Giannis Antetokounmpo,Bucks,Raptors,2026-02-22,20:30,24.12,10.78,5.46,40.35
+Kawhi Leonard,Raptors,Bucks,2026-02-22,20:30,27.17,7.13,4.65,38.95
+Kevin Durant,Nets,Hawks,2026-02-22,20:30,24.15,5.15,3.93,33.23
+Kevin Durant,Warriors,Nuggets,2026-02-22,20:30,24.15,5.15,3.93,33.23
+LaMelo Ball,Nets,Hawks,2026-02-22,20:30,21.77,4.45,6.09,32.31
+Scottie Barnes,Raptors,Bucks,2026-02-22,20:30,17.33,8.96,5.45,31.74
+James Harden,Nets,Hawks,2026-02-22,20:30,18.23,5.09,8.23,31.54
+Ryan Rollins,Bucks,Raptors,2026-02-22,20:30,21.62,4.68,5.18,31.48
+Ryan Rollins,Warriors,Nuggets,2026-02-22,20:30,21.62,4.68,5.18,31.48
+Brandon Miller,Nets,Hawks,2026-02-22,20:30,22.14,5.16,3.6,30.9
+Jarrett Allen,Nets,Hawks,2026-02-22,20:30,18.31,10.39,1.94,30.64
+Brandon Ingram,Raptors,Bucks,2026-02-22,20:30,22.07,5.01,3.37,30.45
+Kevin Porter Jr.,Bucks,Raptors,2026-02-22,20:30,17.73,4.85,7.46,30.04
+Stephen Curry,Warriors,Nuggets,2026-02-22,20:30,21.22,3.18,5.19,29.59
+Michael Porter Jr.,Nets,Hawks,2026-02-22,20:30,19.76,6.2,2.87,28.82
+Michael Porter Jr.,Nuggets,Warriors,2026-02-22,20:30,19.76,6.2,2.87,28.82
+Kon Knueppel,Nets,Hawks,2026-02-22,20:30,19.28,5.7,3.27,28.25
+Grayson Allen,Bucks,Raptors,2026-02-22,20:30,19.3,4.2,4.58,28.07
+Saddiq Bey,Hawks,Nets,2026-02-22,20:30,19.12,5.95,2.96,28.04
+Nickeil Alexander-Walker,Hawks,Nets,2026-02-22,20:30,18.3,4.05,4.77,27.11
+Jrue Holiday,Bucks,Raptors,2026-02-22,20:30,17.32,4.62,5.1,27.04
+Immanuel Quickley,Raptors,Bucks,2026-02-22,20:30,17.03,4.42,4.68,26.13
+CJ McCollum,Hawks,Nets,2026-02-22,20:30,18.98,3.22,3.72,25.92
+Kyle Kuzma,Bucks,Raptors,2026-02-22,20:30,14.39,6.15,3.91,24.45
+RJ Barrett,Raptors,Bucks,2026-02-22,20:30,15.31,5.45,3.38,24.14
+DeMar DeRozan,Raptors,Bucks,2026-02-22,20:30,17.06,2.95,3.73,23.74
+Bobby Portis,Bucks,Raptors,2026-02-22,20:30,13.95,7.12,2.15,23.22
+Tobias Harris,Bucks,Raptors,2026-02-22,20:30,14.15,6.98,2.05,23.18
+Collin Gillespie,Nuggets,Warriors,2026-02-22,20:30,13.74,4.34,5.03,23.11
+Gui Santos,Warriors,Nuggets,2026-02-22,20:30,14.0,5.31,3.35,22.67
+Day'Ron Sharpe,Nets,Hawks,2026-02-22,20:30,11.11,8.79,1.96,21.87
+Brandin Podziemski,Warriors,Nuggets,2026-02-22,20:30,12.39,5.11,4.26,21.76
+John Collins,Hawks,Nets,2026-02-22,20:30,13.85,6.49,1.38,21.72
+Kelly Oubre Jr.,Nets,Hawks,2026-02-22,20:30,14.22,5.03,2.37,21.63
+Kelly Oubre Jr.,Warriors,Nuggets,2026-02-22,20:30,14.22,5.03,2.37,21.63
+Mikal Bridges,Nets,Hawks,2026-02-22,20:30,14.64,3.71,3.07,21.43
+Nolan Traore,Nets,Hawks,2026-02-22,20:30,12.97,2.82,5.63,21.41
+Danny Wolf,Nets,Hawks,2026-02-22,20:30,12.16,5.79,2.88,20.83
+Mark Williams,Nets,Hawks,2026-02-22,20:30,11.59,7.81,1.01,20.41
+Julian Strawther,Nuggets,Warriors,2026-02-22,20:30,13.91,4.46,1.74,20.1
+Jerami Grant,Nuggets,Warriors,2026-02-22,20:30,15.0,3.2,1.78,19.98
+Russell Westbrook,Nuggets,Warriors,2026-02-22,20:30,13.84,2.44,3.64,19.91
+Donte DiVincenzo,Bucks,Raptors,2026-02-22,20:30,11.29,3.89,4.72,19.89
+Donte DiVincenzo,Warriors,Nuggets,2026-02-22,20:30,11.29,3.89,4.72,19.89
+De'Anthony Melton,Warriors,Nuggets,2026-02-22,20:30,13.58,3.13,2.96,19.66
+Malik Monk,Nets,Hawks,2026-02-22,20:30,13.72,2.29,3.53,19.54
+Pat Spencer,Warriors,Nuggets,2026-02-22,20:30,11.38,3.6,4.45,19.43
+Cam Thomas,Nets,Hawks,2026-02-22,20:30,14.21,2.39,2.78,19.38
+Cam Thomas,Bucks,Raptors,2026-02-22,20:30,14.21,2.39,2.78,19.38
+Moses Moody,Warriors,Nuggets,2026-02-22,20:30,13.68,4.07,1.54,19.29
+Kris Dunn,Hawks,Nets,2026-02-22,20:30,9.35,3.78,5.96,19.09
+Royce O'Neale,Nets,Hawks,2026-02-22,20:30,11.62,4.99,2.41,19.01
+Sharife Cooper,Hawks,Nets,2026-02-22,20:30,11.18,3.91,3.87,18.96
+Tim Hardaway Jr.,Hawks,Nets,2026-02-22,20:30,13.4,3.71,1.37,18.48
+Tim Hardaway Jr.,Nuggets,Warriors,2026-02-22,20:30,13.4,3.71,1.37,18.48
+Al Horford,Hawks,Nets,2026-02-22,20:30,10.02,5.07,3.1,18.19
+Al Horford,Warriors,Nuggets,2026-02-22,20:30,10.02,5.07,3.1,18.19
+Egor Demin,Nets,Hawks,2026-02-22,20:30,11.64,4.05,2.45,18.14
+Brook Lopez,Nets,Hawks,2026-02-22,20:30,11.77,4.24,2.03,18.04
+Brook Lopez,Bucks,Raptors,2026-02-22,20:30,11.77,4.24,2.03,18.04
+Draymond Green,Warriors,Nuggets,2026-02-22,20:30,8.74,4.74,4.24,17.72
+Grant Williams,Nets,Hawks,2026-02-22,20:30,9.91,5.55,2.06,17.52
+Jay Huff,Nuggets,Warriors,2026-02-22,20:30,11.08,4.49,1.63,17.2
+Cameron Johnson,Nets,Hawks,2026-02-22,20:30,11.01,3.87,2.09,16.96
+Cameron Johnson,Nuggets,Warriors,2026-02-22,20:30,11.01,3.87,2.09,16.96
+AJ Green,Bucks,Raptors,2026-02-22,20:30,11.6,3.0,2.26,16.86
+Ryan Kalkbrenner,Nets,Hawks,2026-02-22,20:30,8.37,6.36,1.24,15.98
+Landry Shamet,Nets,Hawks,2026-02-22,20:30,11.22,2.26,2.47,15.95
+Jock Landale,Hawks,Nets,2026-02-22,20:30,8.85,5.37,1.25,15.47
+Sandro Mamukelashvili,Raptors,Bucks,2026-02-22,20:30,10.15,4.01,1.25,15.4
+Sandro Mamukelashvili,Bucks,Raptors,2026-02-22,20:30,10.15,4.01,1.25,15.4
+Jonas Valanciunas,Raptors,Bucks,2026-02-22,20:30,8.32,6.07,0.95,15.34
+Jonas Valanciunas,Nuggets,Warriors,2026-02-22,20:30,8.32,6.07,0.95,15.34
+Harrison Barnes,Warriors,Nuggets,2026-02-22,20:30,9.86,3.21,1.92,14.99
+Collin Murray-Boyles,Raptors,Bucks,2026-02-22,20:30,7.95,4.56,2.4,14.91
+Collin Sexton,Nets,Hawks,2026-02-22,20:30,10.56,2.2,1.85,14.61
+Sam Merrill,Bucks,Raptors,2026-02-22,20:30,9.78,2.44,2.1,14.31
+Luke Kennard,Hawks,Nets,2026-02-22,20:30,9.0,3.33,1.95,14.28
+Corey Kispert,Hawks,Nets,2026-02-22,20:30,9.09,3.26,1.87,14.22
+Dennis Schroder,Nets,Hawks,2026-02-22,20:30,8.83,2.38,2.87,14.08
+Dennis Schroder,Hawks,Nets,2026-02-22,20:30,8.83,2.38,2.87,14.08
+Dennis Schroder,Raptors,Bucks,2026-02-22,20:30,8.83,2.38,2.87,14.08
+Dennis Schroder,Warriors,Nuggets,2026-02-22,20:30,8.83,2.38,2.87,14.08
+Bruce Brown,Nets,Hawks,2026-02-22,20:30,8.58,3.34,1.41,13.33
+Bruce Brown,Raptors,Bucks,2026-02-22,20:30,8.58,3.34,1.41,13.33
+Bruce Brown,Nuggets,Warriors,2026-02-22,20:30,8.58,3.34,1.41,13.33
+Sion James,Nets,Hawks,2026-02-22,20:30,6.58,4.36,2.19,13.13
+Bones Hyland,Nuggets,Warriors,2026-02-22,20:30,7.88,2.58,2.5,12.95
+Pete Nance,Bucks,Raptors,2026-02-22,20:30,7.93,3.72,1.15,12.8
+Spencer Jones,Nuggets,Warriors,2026-02-22,20:30,7.39,4.37,1.01,12.78
+Ja'Kobe Walter,Raptors,Bucks,2026-02-22,20:30,7.85,2.89,1.66,12.4
+Jamal Shead,Raptors,Bucks,2026-02-22,20:30,6.07,2.33,3.96,12.36
+Luke Kornet,Bucks,Raptors,2026-02-22,20:30,5.05,5.69,1.57,12.31
+Jarred Vanderbilt,Nuggets,Warriors,2026-02-22,20:30,6.05,4.61,1.16,11.81
+Caris LeVert,Nets,Hawks,2026-02-22,20:30,7.0,1.92,2.61,11.53
+Caris LeVert,Hawks,Nets,2026-02-22,20:30,7.0,1.92,2.61,11.53
+PJ Hall,Nets,Hawks,2026-02-22,20:30,5.64,5.19,0.69,11.52
+PJ Hall,Nuggets,Warriors,2026-02-22,20:30,5.64,5.19,0.69,11.52
+Colin Castleton,Raptors,Bucks,2026-02-22,20:30,5.41,4.77,1.17,11.35
+KJ Simpson,Nets,Hawks,2026-02-22,20:30,6.71,1.86,2.39,10.96
+KJ Simpson,Nuggets,Warriors,2026-02-22,20:30,6.71,1.86,2.39,10.96
+Dorian Finney-Smith,Nets,Hawks,2026-02-22,20:30,5.92,2.75,1.27,9.94
+Drake Powell,Nets,Hawks,2026-02-22,20:30,6.41,2.42,1.09,9.93
+Dru Smith,Nets,Hawks,2026-02-22,20:30,4.22,2.63,2.66,9.51
+Haywood Highsmith,Nets,Hawks,2026-02-22,20:30,5.2,2.88,1.04,9.11
+Josh Green,Nets,Hawks,2026-02-22,20:30,5.73,2.3,1.09,9.11
+Gradey Dick,Raptors,Bucks,2026-02-22,20:30,5.64,2.65,0.79,9.08
+Clint Capela,Hawks,Nets,2026-02-22,20:30,4.17,3.84,0.64,8.65
+Eric Gordon,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Nicolas Batum,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+DeAndre Jordan,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Bismack Biyombo,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Andre Drummond,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Seth Curry,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jusuf Nurkic,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+D'Angelo Russell,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Terry Rozier,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Pat Connaughton,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Miles Bridges,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jevon Carter,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Caleb Martin,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Svi Mykhailiuk,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Josh Okogie,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+P.J. Washington,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Terance Mann,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Coby White,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Nic Claxton,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Nick Richards,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Ziaire Williams,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Ochai Agbaji,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Tre Mann,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Trendon Watford,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jalen Wilson,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Wendell Moore Jr.,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Bryce McGowens,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Drew Timme,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Tyrese Martin,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Alondes Williams,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Moussa Diabate,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Noah Clowney,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Nick Smith Jr.,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Antonio Reeves,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Tidjane Salaun,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Liam McNeeley,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Ben Saraf,Nets,Hawks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Bogdan Bogdanovic,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Kristaps Porzingis,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Larry Nance Jr.,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Buddy Hield,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Georges Niang,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Aaron Holiday,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Kevin Huerter,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Gabe Vincent,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Terance Mann,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+De'Andre Hunter,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Onyeka Okongwu,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Vit Krejci,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jalen Johnson,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Dyson Daniels,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Christian Koloko,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Tyrese Martin,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Dominick Barlow,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Mouhamed Gueye,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Daeqwon Plowden,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Kobe Bufkin,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Duop Reath,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Zaccharie Risacher,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Asa Newell,Hawks,Nets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Kyle Lowry,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Bismack Biyombo,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Kelly Olynyk,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Norman Powell,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jakob Poeltl,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Pascal Siakam,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+OG Anunoby,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Svi Mykhailiuk,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Gary Trent Jr.,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Precious Achiuwa,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Ochai Agbaji,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Justin Champagnie,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Davion Mitchell,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Dalano Banton,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+A.J. Lawson,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Christian Koloko,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Ron Harper Jr.,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Trayce Jackson-Davis,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jonathan Mogbo,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jamison Battle,Raptors,Bucks,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Khris Middleton,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Gary Harris,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Cameron Payne,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Myles Turner,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Pat Connaughton,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Gary Payton II,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jevon Carter,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Gary Trent Jr.,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Amir Coffey,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Cole Anthony,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jericho Sims,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Stanley Umude,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+MarJon Beauchamp,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+TyTy Washington Jr.,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jamaree Bouyea,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Ousmane Dieng,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Andre Jackson Jr.,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+AJ Johnson,Bucks,Raptors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+DeAndre Jordan,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Kentavious Caldwell-Pope,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Gary Harris,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Aaron Gordon,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Dario Saric,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jusuf Nurkic,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jamal Murray,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Isaiah Hartenstein,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Thomas Bryant,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jalen Pickett,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Zeke Nnaji,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Christian Braun,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Peyton Watson,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+DaRon Holmes II,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Hunter Tyson,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Curtis Jones,Nuggets,Warriors,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Klay Thompson,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jimmy Butler III,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Seth Curry,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Kyle Anderson,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Andrew Wiggins,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Dario Saric,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Kristaps Porzingis,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+D'Angelo Russell,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Kevon Looney,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Buddy Hield,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Gary Payton II,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Ty Jerome,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jordan Poole,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Jonathan Kuminga,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Lindy Waters III,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Trayce Jackson-Davis,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Nate Williams,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Quinten Post,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Will Richard,Warriors,Nuggets,2026-02-22,20:30,0.0,0.0,0.0,0.0
+Luka Doncic,Mavericks,Pacers,2026-02-22,22:00,28.2,7.88,7.71,43.79
+Cooper Flagg,Mavericks,Pacers,2026-02-22,22:00,26.31,7.4,4.18,37.89
+Jalen Brunson,Mavericks,Pacers,2026-02-22,22:00,24.3,4.28,6.34,34.92
+Naji Marshall,Mavericks,Pacers,2026-02-22,22:00,18.79,5.59,3.35,27.73
+Max Christie,Mavericks,Pacers,2026-02-22,22:00,14.83,3.33,2.9,21.06
+Jalen Smith,Pacers,Mavericks,2026-02-22,22:00,11.51,7.66,1.14,20.31
+Tim Hardaway Jr.,Mavericks,Pacers,2026-02-22,22:00,13.4,3.71,1.37,18.48
+Derrick Jones Jr.,Mavericks,Pacers,2026-02-22,22:00,12.47,3.77,2.0,18.24
+Olivier-Maxence Prosper,Mavericks,Pacers,2026-02-22,22:00,11.79,4.87,1.24,17.9
+Grant Williams,Mavericks,Pacers,2026-02-22,22:00,9.91,5.55,2.06,17.52
+Jay Huff,Pacers,Mavericks,2026-02-22,22:00,11.08,4.49,1.63,17.2
+Daniel Gafford,Mavericks,Pacers,2026-02-22,22:00,7.73,6.31,1.19,15.23
+Harrison Barnes,Mavericks,Pacers,2026-02-22,22:00,9.86,3.21,1.92,14.99
+Kobe Brown,Pacers,Mavericks,2026-02-22,22:00,8.4,4.73,1.57,14.7
+Ben Sheppard,Pacers,Mavericks,2026-02-22,22:00,8.48,3.32,2.46,14.26
+Johnny Furphy,Pacers,Mavericks,2026-02-22,22:00,6.41,5.52,2.16,14.09
+Bruce Brown,Pacers,Mavericks,2026-02-22,22:00,8.58,3.34,1.41,13.33
+Ryan Nembhard,Mavericks,Pacers,2026-02-22,22:00,5.95,1.99,3.85,11.79
+Caris LeVert,Pacers,Mavericks,2026-02-22,22:00,7.0,1.92,2.61,11.53
+Moussa Cisse,Mavericks,Pacers,2026-02-22,22:00,4.65,5.41,0.56,10.61
+Dorian Finney-Smith,Mavericks,Pacers,2026-02-22,22:00,5.92,2.75,1.27,9.94
+Josh Green,Mavericks,Pacers,2026-02-22,22:00,5.73,2.3,1.09,9.11
+DeAndre Jordan,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Klay Thompson,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Khris Middleton,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Seth Curry,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Doug McDermott,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Dwight Powell,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Kristaps Porzingis,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Tyus Jones,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+D'Angelo Russell,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Maxi Kleber,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Marvin Bagley III,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Caleb Martin,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+P.J. Washington,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Quentin Grimes,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Brandon Williams,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Jeremiah Robinson-Earl,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+A.J. Lawson,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Jaden Hardy,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+AJ Johnson,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Miles Kelly,Mavericks,Pacers,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Paul George,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Doug McDermott,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+T.J. McConnell,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Myles Turner,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Domantas Sabonis,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Buddy Hield,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Georges Niang,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Pascal Siakam,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Tony Bradley,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Thomas Bryant,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Aaron Holiday,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Goga Bitadze,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Andrew Nembhard,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Obi Toppin,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Aaron Nesmith,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Jeremiah Robinson-Earl,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Isaiah Jackson,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Mac McClung,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Ethan Thompson,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Micah Potter,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Bennedict Mathurin,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Oscar Tshiebwe,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Quenton Jackson,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Jarace Walker,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Enrique Freeman,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Kam Jones,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+Taelon Peter,Pacers,Mavericks,2026-02-22,22:00,0.0,0.0,0.0,0.0
+LaMelo Ball,Hornets,Wizards,2026-02-22,23:00,21.77,4.45,6.09,32.31
+Ryan Rollins,Wizards,Hornets,2026-02-22,23:00,21.62,4.68,5.18,31.48
+Brandon Miller,Hornets,Wizards,2026-02-22,23:00,22.14,5.16,3.6,30.9
+Kon Knueppel,Hornets,Wizards,2026-02-22,23:00,19.28,5.7,3.27,28.25
+CJ McCollum,Wizards,Hornets,2026-02-22,23:00,18.98,3.22,3.72,25.92
+Kyle Kuzma,Wizards,Hornets,2026-02-22,23:00,14.39,6.15,3.91,24.45
+Bobby Portis,Wizards,Hornets,2026-02-22,23:00,13.95,7.12,2.15,23.22
+Kelly Oubre Jr.,Hornets,Wizards,2026-02-22,23:00,14.22,5.03,2.37,21.63
+Kelly Oubre Jr.,Wizards,Hornets,2026-02-22,23:00,14.22,5.03,2.37,21.63
+Mark Williams,Hornets,Wizards,2026-02-22,23:00,11.59,7.81,1.01,20.41
+Russell Westbrook,Wizards,Hornets,2026-02-22,23:00,13.84,2.44,3.64,19.91
+Malik Monk,Hornets,Wizards,2026-02-22,23:00,13.72,2.29,3.53,19.54
+Bub Carrington,Wizards,Hornets,2026-02-22,23:00,11.94,2.86,4.41,19.2
+Sharife Cooper,Wizards,Hornets,2026-02-22,23:00,11.18,3.91,3.87,18.96
+Marcus Smart,Wizards,Hornets,2026-02-22,23:00,11.36,3.22,3.44,18.02
+Jordan Goodwin,Wizards,Hornets,2026-02-22,23:00,11.14,4.59,2.05,17.78
+Grant Williams,Hornets,Wizards,2026-02-22,23:00,9.91,5.55,2.06,17.52
+Rui Hachimura,Wizards,Hornets,2026-02-22,23:00,12.1,3.83,1.42,17.35
+Jay Huff,Wizards,Hornets,2026-02-22,23:00,11.08,4.49,1.63,17.2
+Ryan Kalkbrenner,Hornets,Wizards,2026-02-22,23:00,8.37,6.36,1.24,15.98
+Landry Shamet,Wizards,Hornets,2026-02-22,23:00,11.22,2.26,2.47,15.95
+Jonas Valanciunas,Wizards,Hornets,2026-02-22,23:00,8.32,6.07,0.95,15.34
+Daniel Gafford,Wizards,Hornets,2026-02-22,23:00,7.73,6.31,1.19,15.23
+Collin Sexton,Hornets,Wizards,2026-02-22,23:00,10.56,2.2,1.85,14.61
+Will Riley,Wizards,Hornets,2026-02-22,23:00,10.23,2.46,1.58,14.27
+Corey Kispert,Wizards,Hornets,2026-02-22,23:00,9.09,3.26,1.87,14.22
+Sion James,Hornets,Wizards,2026-02-22,23:00,6.58,4.36,2.19,13.13
+Moritz Wagner,Wizards,Hornets,2026-02-22,23:00,7.99,3.56,1.01,12.56
+PJ Hall,Hornets,Wizards,2026-02-22,23:00,5.64,5.19,0.69,11.52
+KJ Simpson,Hornets,Wizards,2026-02-22,23:00,6.71,1.86,2.39,10.96
+Josh Green,Hornets,Wizards,2026-02-22,23:00,5.73,2.3,1.09,9.11
+Isaiah Livers,Wizards,Hornets,2026-02-22,23:00,3.16,2.27,0.83,6.26
+Eric Gordon,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Nicolas Batum,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Bismack Biyombo,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Seth Curry,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Jusuf Nurkic,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Terry Rozier,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Pat Connaughton,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Miles Bridges,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Caleb Martin,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Svi Mykhailiuk,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Josh Okogie,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+P.J. Washington,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Coby White,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Nick Richards,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Tre Mann,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Wendell Moore Jr.,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Bryce McGowens,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Moussa Diabate,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Nick Smith Jr.,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Antonio Reeves,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Tidjane Salaun,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Liam McNeeley,Hornets,Wizards,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Khris Middleton,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Kentavious Caldwell-Pope,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Kristaps Porzingis,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Tyus Jones,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Skal Labissiere,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Gary Payton II,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Thomas Bryant,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Marvin Bagley III,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Aaron Holiday,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Jordan Poole,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Deni Avdija,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Anthony Gill,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Justin Champagnie,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Jaden Hardy,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Malaki Branham,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Jamaree Bouyea,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Alondes Williams,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Quenton Jackson,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Bilal Coulibaly,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Tristan Vukcevic,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Alex Sarr,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Kyshawn George,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+AJ Johnson,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Jamir Watkins,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Tre Johnson,Wizards,Hornets,2026-02-22,23:00,0.0,0.0,0.0,0.0
+Luka Doncic,Lakers,Celtics,2026-02-22,23:30,28.2,7.88,7.71,43.79
+Julius Randle,Lakers,Celtics,2026-02-22,23:30,22.89,6.64,5.33,34.86
+LeBron James,Lakers,Celtics,2026-02-22,23:30,21.77,5.18,7.83,34.78
+Brandon Ingram,Lakers,Celtics,2026-02-22,23:30,22.07,5.01,3.37,30.45
+Payton Pritchard,Celtics,Lakers,2026-02-22,23:30,20.49,3.73,5.83,30.05
+Jrue Holiday,Celtics,Lakers,2026-02-22,23:30,17.32,4.62,5.1,27.04
+Derrick White,Celtics,Lakers,2026-02-22,23:30,17.01,3.44,6.51,26.95
+Ivica Zubac,Lakers,Celtics,2026-02-22,23:30,11.99,11.58,1.48,25.05
+Nikola Vucevic,Celtics,Lakers,2026-02-22,23:30,14.71,7.68,2.37,24.76
+Kyle Kuzma,Lakers,Celtics,2026-02-22,23:30,14.39,6.15,3.91,24.45
+Josh Hart,Lakers,Celtics,2026-02-22,23:30,11.65,5.89,4.97,22.51
+Max Christie,Lakers,Celtics,2026-02-22,23:30,14.83,3.33,2.9,21.06
+Russell Westbrook,Lakers,Celtics,2026-02-22,23:30,13.84,2.44,3.64,19.91
+Malik Monk,Lakers,Celtics,2026-02-22,23:30,13.72,2.29,3.53,19.54
+Al Horford,Celtics,Lakers,2026-02-22,23:30,10.02,5.07,3.1,18.19
+Brook Lopez,Lakers,Celtics,2026-02-22,23:30,11.77,4.24,2.03,18.04
+Marcus Smart,Celtics,Lakers,2026-02-22,23:30,11.36,3.22,3.44,18.02
+Marcus Smart,Lakers,Celtics,2026-02-22,23:30,11.36,3.22,3.44,18.02
+Jordan Goodwin,Lakers,Celtics,2026-02-22,23:30,11.14,4.59,2.05,17.78
+Grant Williams,Celtics,Lakers,2026-02-22,23:30,9.91,5.55,2.06,17.52
+Rui Hachimura,Lakers,Celtics,2026-02-22,23:30,12.1,3.83,1.42,17.35
+Jay Huff,Lakers,Celtics,2026-02-22,23:30,11.08,4.49,1.63,17.2
+Baylor Scheierman,Celtics,Lakers,2026-02-22,23:30,8.3,6.52,2.05,16.86
+Neemias Queta,Celtics,Lakers,2026-02-22,23:30,7.09,7.51,1.66,16.27
+Luke Kennard,Lakers,Celtics,2026-02-22,23:30,9.0,3.33,1.95,14.28
+Dennis Schroder,Celtics,Lakers,2026-02-22,23:30,8.83,2.38,2.87,14.08
+Dennis Schroder,Lakers,Celtics,2026-02-22,23:30,8.83,2.38,2.87,14.08
+Jake LaRavia,Lakers,Celtics,2026-02-22,23:30,8.82,3.15,1.44,13.42
+Moritz Wagner,Celtics,Lakers,2026-02-22,23:30,7.99,3.56,1.01,12.56
+Moritz Wagner,Lakers,Celtics,2026-02-22,23:30,7.99,3.56,1.01,12.56
+Luke Kornet,Celtics,Lakers,2026-02-22,23:30,5.05,5.69,1.57,12.31
+Jarred Vanderbilt,Lakers,Celtics,2026-02-22,23:30,6.05,4.61,1.16,11.81
+Colin Castleton,Lakers,Celtics,2026-02-22,23:30,5.41,4.77,1.17,11.35
+Dorian Finney-Smith,Lakers,Celtics,2026-02-22,23:30,5.92,2.75,1.27,9.94
+Javonte Green,Celtics,Lakers,2026-02-22,23:30,5.9,3.1,0.88,9.88
+Hugo Gonzalez,Celtics,Lakers,2026-02-22,23:30,4.65,3.3,0.65,8.6
+Luka Garza,Celtics,Lakers,2026-02-22,23:30,4.83,2.69,0.6,8.13
+Kelly Olynyk,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Dwight Powell,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Kristaps Porzingis,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Terry Rozier,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Jaylen Brown,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Guerschon Yabusele,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Svi Mykhailiuk,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Anfernee Simons,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Robert Williams III,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Aaron Nesmith,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Justin Champagnie,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Sam Hauser,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Dalano Banton,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+JD Davison,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Ron Harper Jr.,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Jordan Walsh,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Amari Williams,Celtics,Lakers,2026-02-22,23:30,0.0,0.0,0.0,0.0
+DeAndre Jordan,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Andre Drummond,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Kentavious Caldwell-Pope,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Jordan Clarkson,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+D'Angelo Russell,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Larry Nance Jr.,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Gary Payton II,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Alex Caruso,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Lonzo Ball,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Thomas Bryant,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Maxi Kleber,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Svi Mykhailiuk,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Deandre Ayton,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Gabe Vincent,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Jaxson Hayes,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Austin Reaves,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Scotty Pippen Jr.,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Mac McClung,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Christian Koloko,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Drew Timme,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Kobe Bufkin,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Nick Smith Jr.,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Dalton Knecht,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
+Bronny James,Lakers,Celtics,2026-02-22,23:30,0.0,0.0,0.0,0.0
