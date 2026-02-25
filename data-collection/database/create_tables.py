@@ -1,4 +1,4 @@
 from database import engine
-from models import Base
+from models import DailyDist
 
-Base.metadata.create_all(bind=engine)
+DailyDist.metadata.create_all(bind=engine)
