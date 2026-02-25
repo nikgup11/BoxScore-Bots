@@ -1,12 +1,12 @@
 ,id,sport_key,sport_title,commence_time,home_team,away_team
-0,734128222c2a03269132090adb3c593d,basketball_nba,NBA,2026-02-07T20:41:00Z,Oklahoma City Thunder,Houston Rockets
-1,b69d85cac76c01181ada3299bc50ed54,basketball_nba,NBA,2026-02-07T23:10:00Z,San Antonio Spurs,Dallas Mavericks
-2,a54af649958eb60284f57114fdeeb472,basketball_nba,NBA,2026-02-08T00:10:00Z,Orlando Magic,Utah Jazz
-3,05cf7fd60949a0c52340284b261ae851,basketball_nba,NBA,2026-02-08T00:40:00Z,Atlanta Hawks,Charlotte Hornets
-4,e9a14346272a3fc89154cc1bf1c5da1b,basketball_nba,NBA,2026-02-08T01:10:00Z,Chicago Bulls,Denver Nuggets
-5,076f5eadf0573f4dd2ace4f26ae28ef2,basketball_nba,NBA,2026-02-08T01:40:00Z,Los Angeles Lakers,Golden State Warriors
-6,a809adbd88558364e25c834bbb5a88f0,basketball_nba,NBA,2026-02-08T02:10:00Z,Phoenix Suns,Philadelphia 76ers
-7,e4c99c288d8e1b1baf8bd7af1678ddb5,basketball_nba,NBA,2026-02-08T03:00:00Z,Portland Trail Blazers,Memphis Grizzlies
-8,7b28a8f5733ef01c824181e1b5a42341,basketball_nba,NBA,2026-02-08T03:10:00Z,Sacramento Kings,Cleveland Cavaliers
-9,c2aacc97e9c2f14777db6a947e5b0772,basketball_nba,NBA,2026-02-08T17:40:00Z,Boston Celtics,New York Knicks
-10,c7739a581c938fedf4dd128cb53f31dc,basketball_nba,NBA,2026-02-08T19:10:00Z,Washington Wizards,Miami Heat
+0,56d8ed44cdc3ee05a77edd2ecb4a516b,basketball_nba,NBA,2026-02-25T00:10:00Z,Indiana Pacers,Philadelphia 76ers
+1,9b47a98c27ee6ad7706c0e3a34887d12,basketball_nba,NBA,2026-02-25T00:40:00Z,Atlanta Hawks,Washington Wizards
+2,ba1cbfef82b196c39c27c0a78d2f22f4,basketball_nba,NBA,2026-02-25T00:40:00Z,Brooklyn Nets,Dallas Mavericks
+3,a4f9fe2c493fda08ff19d7c349948824,basketball_nba,NBA,2026-02-25T00:40:00Z,Cleveland Cavaliers,New York Knicks
+4,9309db11d70c5cca506e8df2ce5e1fb3,basketball_nba,NBA,2026-02-25T00:40:00Z,Toronto Raptors,Oklahoma City Thunder
+5,afa313a4ac57c385b346c4d1b4912e3c,basketball_nba,NBA,2026-02-25T01:10:00Z,Chicago Bulls,Charlotte Hornets
+6,eeaef64ecae77969994ee0b8b56da256,basketball_nba,NBA,2026-02-25T01:10:00Z,New Orleans Pelicans,Golden State Warriors
+7,d8b8e015e358036b0f8e3758c263ae24,basketball_nba,NBA,2026-02-25T01:10:00Z,Milwaukee Bucks,Miami Heat
+8,0bd210b80d8411885dccc7164a922234,basketball_nba,NBA,2026-02-25T02:10:00Z,Phoenix Suns,Boston Celtics
+9,f1b2d64d6f68c92256c27ebe3868b62a,basketball_nba,NBA,2026-02-25T03:10:00Z,Portland Trail Blazers,Minnesota Timberwolves
+10,19016c4fd819260622e9fbaf8070d66a,basketball_nba,NBA,2026-02-25T03:40:00Z,Los Angeles Lakers,Orlando Magic

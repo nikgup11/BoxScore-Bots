@@ -41,8 +41,17 @@ class NBAPlayerRNN(nn.Module):
 # ==========================================
 print("Loading data...")
 data = pd.read_csv('./data-collection/clean_data/PlayerStatistics.csv', low_memory=False)
-
 data['gameDateTimeEst'] = pd.to_datetime(data['gameDateTimeEst'], utc=True)
+
+# ---------------------------
+# FILTER LAST 5 SEASONS
+# ---------------------------
+latest_date = data['gameDateTimeEst'].max()
+five_years_ago = latest_date - pd.DateOffset(years=5)
+data = data[data['gameDateTimeEst'] >= five_years_ago].copy()
+print(f"Filtered data to last 5 seasons: {len(data)} rows remain.")
+
+# Keep only rows with opponent pace info
 data = data[data['OppPace'].notna()].copy()
 data = data.sort_values(['personId', 'gameDateTimeEst'])
 
@@ -52,7 +61,7 @@ data = data.sort_values(['personId', 'gameDateTimeEst'])
 feature_cols = ['points', 'reboundsTotal', 'assists', 'numMinutes', 
                 'fieldGoalsAttempted', 'OppOffRtg', 'OppDefRtg', 'OppPace', 'home']
 
-data_clean = data[feature_cols + ['personId']].dropna().copy()
+data_clean = data[feature_cols + ['personId', 'gameDateTimeEst']].dropna().copy()
 scaler = StandardScaler()
 data_clean[feature_cols] = scaler.fit_transform(data_clean[feature_cols])
 
@@ -64,15 +73,15 @@ X_sequences = []
 y_values = []
 
 for player_id in data_clean['personId'].unique():
-    player_data = data_clean[data_clean['personId'] == player_id].sort_values('personId')
-    player_data = player_data[feature_cols].values
+    player_data = data_clean[data_clean['personId'] == player_id].sort_values('gameDateTimeEst')
+    player_array = player_data[feature_cols].values
     
-    if len(player_data) < SEQUENCE_LENGTH + 1:
+    if len(player_array) < SEQUENCE_LENGTH + 1:
         continue
     
-    for i in range(len(player_data) - SEQUENCE_LENGTH):
-        sequence = player_data[i:i+SEQUENCE_LENGTH]
-        target = player_data[i+SEQUENCE_LENGTH, :3]
+    for i in range(len(player_array) - SEQUENCE_LENGTH):
+        sequence = player_array[i:i+SEQUENCE_LENGTH]
+        target = player_array[i+SEQUENCE_LENGTH, :3]  # predict points, rebounds, assists
         
         X_sequences.append(torch.tensor(sequence, dtype=torch.float32))
         y_values.append(torch.tensor(target, dtype=torch.float32))

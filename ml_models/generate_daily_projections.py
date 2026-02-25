@@ -1,9 +1,12 @@
 import pandas as pd
 import numpy as np
+import pandas as pd
+import numpy as np
 import torch
 import torch.nn as nn
 import pickle
 import warnings
+import pytz
 warnings.filterwarnings('ignore')  # Suppress sklearn warnings
 
 # ==========================================
@@ -16,12 +19,48 @@ MATCHUPS_CSV = './data-collection/clean_data/nba-2025-UTC.csv'
 
 # Set TARGET_DATE to the day after the last date in PlayerStatistics data
 data_temp = pd.read_csv('./data-collection/clean_data/PlayerStatistics.csv', low_memory=False)
-data_temp['gameDateTimeEst'] = pd.to_datetime(data_temp['gameDateTimeEst'])
+data_temp['gameDateTimeEst'] = pd.to_datetime(data_temp['gameDateTimeEst'], utc=True)
 last_game_date = data_temp['gameDateTimeEst'].max()
-TARGET_DATE = (last_game_date + pd.Timedelta(days=1)).strftime('%Y-%m-%d')
+TARGET_DATE = (last_game_date + pd.Timedelta(days=1)).tz_localize(None).strftime('%Y-%m-%d')
 
 feature_cols = ['points', 'reboundsTotal', 'assists', 'numMinutes', 
                 'fieldGoalsAttempted', 'OppOffRtg', 'OppDefRtg', 'OppPace', 'home']
+
+# ==========================================
+# TEAM NAME NORMALIZATION
+# ==========================================
+TEAM_NAME_MAP = {
+    'Cleveland': 'Cavaliers',
+    'Golden State': 'Warriors',
+    'LA': 'Clippers',
+    'Los Angeles': 'Lakers',
+    'New York': 'Knicks',
+    'Brooklyn': 'Nets',
+    'Houston': 'Rockets',
+    'Oklahoma City': 'Thunder',
+    'San Antonio': 'Spurs',
+    'Detroit': 'Pistons',
+    'Memphis': 'Grizzlies',
+    'Sacramento': 'Kings',
+    'Miami': 'Heat',
+    'Orlando': 'Magic',
+    'Toronto': 'Raptors',
+    'Boston': 'Celtics',
+    'Philadelphia': '76ers',
+    'Washington': 'Wizards',
+    'Chicago': 'Bulls',
+    'Indiana': 'Pacers',
+    'Milwaukee': 'Bucks',
+    'Minnesota': 'Timberwolves',
+    'Denver': 'Nuggets',
+    'Utah': 'Jazz',
+    'Phoenix': 'Suns',
+    'Portland': 'Trail Blazers',
+    'Dallas': 'Mavericks',
+    'Charlotte': 'Hornets',
+    'Atlanta': 'Hawks',
+    'New Orleans': 'Pelicans'
+}
 
 # ==========================================
 # RNN MODEL DEFINITION
@@ -66,12 +105,20 @@ data['gameDateTimeEst'] = pd.to_datetime(data['gameDateTimeEst'], utc=True)
 data = data[data['OppPace'].notna()].copy()
 data = data.sort_values(['personId', 'gameDateTimeEst'])
 
+# Normalize player team names
+data['playerteamNameNorm'] = data['playerteamName'].map(TEAM_NAME_MAP).fillna(data['playerteamName'])
+
 # ==========================================
 # SCHEDULE ENGINE (CSV BASED)
 # ==========================================
 print("Loading matchup CSV...")
 matchups = pd.read_csv(MATCHUPS_CSV, parse_dates=['Date'], dayfirst=True)
-matchups['DateOnly'] = matchups['Date'].dt.strftime('%Y-%m-%d')
+
+# Timezone fix: mark as UTC and convert to ET
+matchups['Date'] = matchups['Date'].dt.tz_localize('UTC')
+matchups['DateET'] = matchups['Date'].dt.tz_convert('US/Eastern')
+matchups['DateOnly'] = matchups['DateET'].dt.strftime('%Y-%m-%d')
+matchups['GameTimeET'] = matchups['DateET'].dt.strftime('%H:%M')
 
 def get_schedule_from_csv(target_date_str):
     today_matchups = matchups[matchups['DateOnly'] == target_date_str]
@@ -127,17 +174,20 @@ def predict_slate_rnn(team_stats_map, target_date_str):
         matchups = [(away_team, home_team, 0), (home_team, away_team, 1)]
         
         for current_team, opp_team, is_home in matchups:
+            # Normalize current_team
+            current_team_norm = TEAM_NAME_MAP.get(current_team, current_team)
+            
             # Get the player's latest team
             latest_team_per_player = (
                 data.sort_values('gameDateTimeEst')
-                    .groupby('personId')['playerteamName']
+                    .groupby('personId')['playerteamNameNorm']
                     .last()
             )
 
-            # Then filter roster_ids like this:
+            # Filter roster_ids using normalized names
             roster_ids = [
                 pid for pid in active_ids
-                if latest_team_per_player.get(pid, None) == current_team
+                if latest_team_per_player.get(pid, None) == current_team_norm
             ]
             
             for pid in roster_ids:

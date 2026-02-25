@@ -16,3 +16,12 @@ class Player(Base):
     proj_ast = Column(Float, nullable=False)
     total_pra = Column(Float, nullable=False)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+class DailyDist(Base):
+    __tablename__ = "tracking"
+    id = Column(Integer, primary_key=True, index=True)
+    date = Column(DateTime, nullable=False)
+    average_dist_pts = Column(Float, nullable=True)
+    average_dist_reb = Column(Float, nullable=True)
+    average_dist_ast = Column(Float, nullable=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())

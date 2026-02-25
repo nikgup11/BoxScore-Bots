@@ -43,8 +43,10 @@ def get_odds(event_id):
     odds_json = odds_response.json()
     # 🔑 SKIP if no odds available
     if not isinstance(odds_json, dict) or not odds_json.get("bookmakers"):
+        print(f"No odds found for event {event_id}. Skipping.")
         return
     odds_to_csv(odds_json)
+    print(f"odds for event {event_id} processed and saved.")
 
 def odds_to_csv(event_json):
     rows = []
@@ -94,10 +96,10 @@ def odds_to_csv(event_json):
                 })
 
     if not rows:
+        print(f"No valid odds found for event {event_id}. Skipping.")
         return
 
     df = pd.DataFrame(rows)
-
     output_path = "./data-collection/sportsbook_data/playerprops.csv"
     df.to_csv(
         output_path,
@@ -112,7 +114,7 @@ if __name__ == "__main__":
 
     if not os.path.exists(events_path):
         get_events()
-
+    
     event_ids = pd.read_csv(events_path)["id"]
 
     for game_id in event_ids:
