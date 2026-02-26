@@ -33,6 +33,14 @@ export default function Navbar() {
               Projection History
             </Link>
           </li>
+          <li>
+            <Link
+              href="/recommendations"
+              className="transition-colors hover:text-[#ffcccc]"
+            >
+              Recommendations
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

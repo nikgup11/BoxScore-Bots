@@ -20,7 +20,8 @@ for player in sportsbook_data.itertuples():
                 "Player": player_name,
                 "Projection": points_proj,
                 "Sportsbook Line": player_ou,
-                "Difference": points_proj - player_ou
+                "Difference": points_proj - player_ou,
+                "Recommendation": 1
             }, ignore_index=True)
         elif points_proj < player_ou:
             if points_proj == 0:
@@ -31,7 +32,8 @@ for player in sportsbook_data.itertuples():
                 "Player": player_name,
                 "Projection": points_proj,
                 "Sportsbook Line": player_ou,
-                "Difference": points_proj - player_ou
+                "Difference": points_proj - player_ou,
+                "Recommendation": 0
             }, ignore_index=True)
     else:
         print(f"No projection found for {player_name}")
