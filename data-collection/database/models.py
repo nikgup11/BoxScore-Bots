@@ -25,3 +25,13 @@ class DailyDist(Base):
     average_dist_reb = Column(Float, nullable=True)
     average_dist_ast = Column(Float, nullable=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+class Difference(Base):
+    __tablename__ = "differences"
+    id = Column(Integer, primary_key=True, index=True)
+    name = Column(String, nullable=False)
+    points = Column(Float, nullable=True)
+    line = Column(Float, nullable=True)
+    difference = Column(Float, nullable=True)
+    recommendation = Column(Integer, nullable=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
