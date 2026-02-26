@@ -111,9 +111,15 @@ export default function StatsPage() {
               <ResponsiveContainer width="100%" height={250}>
                 <BarChart data={dailyDist}>
                   <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="date" />
+                  <XAxis 
+                    dataKey="date" 
+                    tickFormatter={(date) => new Date(date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                  />
                   <YAxis />
-                  <Tooltip />
+                  <Tooltip 
+                    formatter={(value: number) => Number(value).toFixed(2)}_
+                    labelFormatter={(value: any) => new Date(value).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                  />
                   <Legend />
                   <Bar dataKey={stat.key as keyof DailyDist} fill="#8B0000" name={stat.label} />
                 </BarChart>
