@@ -1,5 +1,5 @@
 import pandas as pd
-from models import Player, DailyDist, Difference
+from models import Player, DailyDist, Difference, XGB_Player
 from database import SessionLocal
 
 def bulk_insert_players(csv_path):
@@ -81,6 +81,35 @@ def bulk_remove_differences():
     db.commit()
     db.close()
 
+def bulk_insert_xgb_players(csv_path):
+    df = pd.read_csv(csv_path)
+    db = SessionLocal()
+
+    xgb_players = [
+        XGB_Player(
+            name=row["Name"],
+            team=row["Team"],
+            opp=row["Opp"],
+            game_date=row["Game_Date"],
+            game_time=row["Game_Time"],
+            proj_pts=row["Proj_PTS"],
+            proj_reb=row["Proj_REB"],
+            proj_ast=row["Proj_AST"],
+            total_pra=row["Total_PRA"],
+        )
+        for _, row in df.iterrows()
+    ]
+
+    db.bulk_save_objects(xgb_players)
+    db.commit()
+    db.close()
+
+def bulk_remove_xgb_players():
+    db = SessionLocal()
+    db.query(XGB_Player).delete()
+    db.commit()
+    db.close()
+
 bulk_remove_players()
 bulk_insert_players("data-collection/output_data/tonights_projections_rnn.csv")
 
@@ -89,3 +118,6 @@ bulk_insert_daily_dist("data-collection/output_data/average_projection_dist_by_d
 
 bulk_remove_differences()
 bulk_insert_differences("data-collection/output_data/projection_vs_sportsbook.csv")
+
+bulk_remove_xgb_players()
+bulk_insert_xgb_players("data-collection/output_data/tonights_projections_xgb.csv")
