@@ -1,12 +1,11 @@
 ,id,sport_key,sport_title,commence_time,home_team,away_team
-0,56d8ed44cdc3ee05a77edd2ecb4a516b,basketball_nba,NBA,2026-02-25T00:10:00Z,Indiana Pacers,Philadelphia 76ers
-1,9b47a98c27ee6ad7706c0e3a34887d12,basketball_nba,NBA,2026-02-25T00:40:00Z,Atlanta Hawks,Washington Wizards
-2,ba1cbfef82b196c39c27c0a78d2f22f4,basketball_nba,NBA,2026-02-25T00:40:00Z,Brooklyn Nets,Dallas Mavericks
-3,a4f9fe2c493fda08ff19d7c349948824,basketball_nba,NBA,2026-02-25T00:40:00Z,Cleveland Cavaliers,New York Knicks
-4,9309db11d70c5cca506e8df2ce5e1fb3,basketball_nba,NBA,2026-02-25T00:40:00Z,Toronto Raptors,Oklahoma City Thunder
-5,afa313a4ac57c385b346c4d1b4912e3c,basketball_nba,NBA,2026-02-25T01:10:00Z,Chicago Bulls,Charlotte Hornets
-6,eeaef64ecae77969994ee0b8b56da256,basketball_nba,NBA,2026-02-25T01:10:00Z,New Orleans Pelicans,Golden State Warriors
-7,d8b8e015e358036b0f8e3758c263ae24,basketball_nba,NBA,2026-02-25T01:10:00Z,Milwaukee Bucks,Miami Heat
-8,0bd210b80d8411885dccc7164a922234,basketball_nba,NBA,2026-02-25T02:10:00Z,Phoenix Suns,Boston Celtics
-9,f1b2d64d6f68c92256c27ebe3868b62a,basketball_nba,NBA,2026-02-25T03:10:00Z,Portland Trail Blazers,Minnesota Timberwolves
-10,19016c4fd819260622e9fbaf8070d66a,basketball_nba,NBA,2026-02-25T03:40:00Z,Los Angeles Lakers,Orlando Magic
+0,c1ff99354847ec708fa5aa95791dd292,basketball_nba,NBA,2026-02-27T00:10:00Z,Indiana Pacers,Charlotte Hornets
+1,68aa69753fe0692c00bca7343fd61b8b,basketball_nba,NBA,2026-02-27T00:10:00Z,Philadelphia 76ers,Miami Heat
+2,e7ec27a7927c90d32cc2fb2ebdd76585,basketball_nba,NBA,2026-02-27T00:40:00Z,Atlanta Hawks,Washington Wizards
+3,985b660bc6ae0521de793dacdc666b6f,basketball_nba,NBA,2026-02-27T00:40:00Z,Brooklyn Nets,San Antonio Spurs
+4,57e97a356eae8b74d10b09eb58962542,basketball_nba,NBA,2026-02-27T00:40:00Z,Orlando Magic,Houston Rockets
+5,3c630cc42d5e0712a9317980a2a35a21,basketball_nba,NBA,2026-02-27T01:10:00Z,Chicago Bulls,Portland Trail Blazers
+6,ab0ac3191351854638bfb2c653e7408b,basketball_nba,NBA,2026-02-27T01:40:00Z,Dallas Mavericks,Sacramento Kings
+7,e1602b5cfe2adbc7eeb741f4aa40e1dd,basketball_nba,NBA,2026-02-27T02:10:00Z,Phoenix Suns,Los Angeles Lakers
+8,e981f4f0dfb4d08b3260300b922334fe,basketball_nba,NBA,2026-02-27T02:10:00Z,Utah Jazz,New Orleans Pelicans
+9,2678ac16f4dad43d27dd570fb7a64577,basketball_nba,NBA,2026-02-27T03:10:00Z,Los Angeles Clippers,Minnesota Timberwolves

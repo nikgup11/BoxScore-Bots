@@ -1,4 +1,4 @@
 from database import engine
-from models import DailyDist
+from models import Difference
 
-DailyDist.metadata.create_all(bind=engine)
+Difference.metadata.create_all(bind=engine)

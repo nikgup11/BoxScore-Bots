@@ -9,11 +9,11 @@ close_projections[['Name', 'Proj_PTS', 'Actual_PTS']]
 
 # on average how far off are the projections?
 # if < 1 model is doing well
-average_dist_pts = tracking_clean['Actual_PTS'] - tracking_clean['Proj_PTS']
+average_dist_pts = (tracking_clean['Actual_PTS'] - tracking_clean['Proj_PTS']).abs()
 average_dist_pts.mean()
-average_dist_reb = tracking_clean['Actual_REB'] - tracking_clean['Proj_REB']
+average_dist_reb = (tracking_clean['Actual_REB'] - tracking_clean['Proj_REB']).abs()
 average_dist_reb.mean()
-average_dist_ast = tracking_clean['Actual_AST'] - tracking_clean['Proj_AST']
+average_dist_ast = (tracking_clean['Actual_AST'] - tracking_clean['Proj_AST']).abs()
 average_dist_ast.mean()
 
 rnn_projections = pd.read_csv('./data-collection/output_data/tonights_projections_rnn.csv')

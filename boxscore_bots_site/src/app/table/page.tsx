@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Navbar from '@/components/nav_bar';
-import { supabase } from '../../lib/supabase'; // Relative path to lib
+import { supabase } from '../../lib/supabase';
 
 type Player = {
   name: string;
@@ -11,6 +11,7 @@ type Player = {
   points: number | null;
   rebounds: number | null;
   assists: number | null;
+  pra: number | null;
   date: string | null;
 };
 
@@ -19,19 +20,20 @@ export default function StatsPage() {
   const [playerData, setPlayerData] = useState<Player[]>([]);
   const [loading, setLoading] = useState(true);
 
-  // Fetch data from Supabase
+  // Sort state
+  const [sortConfig, setSortConfig] = useState<{ key: keyof Player; direction: 'asc' | 'desc' } | null>(null);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
         const { data, error } = await supabase
           .from('projections')
-          .select('name, team, opp, proj_pts, proj_reb, proj_ast, game_date');
+          .select('name, team, opp, proj_pts, proj_reb, proj_ast, total_pra, game_date');
 
         if (error) {
           console.error('Error fetching projections:', error.message);
           setPlayerData([]);
         } else {
-          // Map DB columns to frontend type
           const mapped = (data || []).map((row: any) => ({
             name: row.name,
             team: row.team,
@@ -39,7 +41,8 @@ export default function StatsPage() {
             points: row.proj_pts,
             rebounds: row.proj_reb,
             assists: row.proj_ast,
-            date: row.game_date,
+            pra: row.total_pra,
+            date: row.game_date
           }));
           setPlayerData(mapped);
         }
@@ -54,8 +57,28 @@ export default function StatsPage() {
     fetchData();
   }, []);
 
-  // Filter by search term
-  const filteredPlayers = playerData.filter((player) =>
+  const handleSort = (key: keyof Player) => {
+    let direction: 'asc' | 'desc' = 'asc';
+    if (sortConfig && sortConfig.key === key && sortConfig.direction === 'asc') {
+      direction = 'desc';
+    }
+    setSortConfig({ key, direction });
+  };
+
+  const sortedPlayers = [...playerData].sort((a, b) => {
+    if (!sortConfig) return 0;
+    const { key, direction } = sortConfig;
+    const aValue = a[key] ?? 0;
+    const bValue = b[key] ?? 0;
+
+    if (typeof aValue === 'string' && typeof bValue === 'string') {
+      return direction === 'asc' ? aValue.localeCompare(bValue) : bValue.localeCompare(aValue);
+    } else {
+      return direction === 'asc' ? Number(aValue) - Number(bValue) : Number(bValue) - Number(aValue);
+    }
+  });
+
+  const filteredPlayers = sortedPlayers.filter((player) =>
     player.name?.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
@@ -72,7 +95,6 @@ export default function StatsPage() {
       <Navbar />
 
       <main className="mx-auto max-w-6xl px-6 pt-24 pb-12">
-        {/* Header */}
         <div className="mb-8 text-center text-white">
           <h1 className="text-4xl font-bold drop-shadow-md">
             BOXSCORE BOT PROJECTIONS
@@ -82,7 +104,6 @@ export default function StatsPage() {
           </p>
         </div>
 
-        {/* Search Bar */}
         <div className="mb-8 flex justify-center">
           <input
             type="text"
@@ -93,18 +114,23 @@ export default function StatsPage() {
           />
         </div>
 
-        {/* Table */}
         <div className="overflow-hidden rounded-xl bg-white shadow-xl">
           <div className="overflow-x-auto">
             <table className="w-full text-left border-collapse">
-              <thead className="bg-[#8B0000] text-white">
+              <thead className="bg-[#8B0000] text-white cursor-pointer">
                 <tr>
-                  <th className="p-4 font-bold uppercase tracking-wider">Player</th>
-                  <th className="p-4 font-bold uppercase tracking-wider">Team</th>
-                  <th className="p-4 font-bold uppercase tracking-wider">Opp</th>
-                  <th className="p-4 font-bold uppercase tracking-wider text-center">PTS</th>
-                  <th className="p-4 font-bold uppercase tracking-wider text-center">REB</th>
-                  <th className="p-4 font-bold uppercase tracking-wider text-center">AST</th>
+                  {['name', 'team', 'opponent', 'points', 'rebounds', 'assists', 'pra'].map((key, idx) => (
+                    <th
+                      key={idx}
+                      className="p-4 font-bold uppercase tracking-wider text-center"
+                      onClick={() => handleSort(key as keyof Player)}
+                    >
+                      {key.toUpperCase()}
+                      {sortConfig?.key === key && (
+                        <span>{sortConfig.direction === 'asc' ? ' 🔼' : ' 🔽'}</span>
+                      )}
+                    </th>
+                  ))}
                 </tr>
               </thead>
               <tbody className="divide-y divide-blue-50">
@@ -117,11 +143,12 @@ export default function StatsPage() {
                       <td className="p-4 text-center font-medium">{(player.points ?? 0).toFixed(2)}</td>
                       <td className="p-4 text-center font-medium">{(player.rebounds ?? 0).toFixed(2)}</td>
                       <td className="p-4 text-center font-medium">{(player.assists ?? 0).toFixed(2)}</td>
+                      <td className="p-4 text-center font-medium">{(player.pra ?? 0).toFixed(2)}</td>
                     </tr>
                   ))
                 ) : (
                   <tr>
-                    <td colSpan={6} className="p-12 text-center text-gray-400 italic">
+                    <td colSpan={7} className="p-12 text-center text-gray-400 italic">
                       No matching player found for "{searchTerm}"
                     </td>
                   </tr>
