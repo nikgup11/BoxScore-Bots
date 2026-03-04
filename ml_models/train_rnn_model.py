@@ -103,6 +103,15 @@ model = NBAPlayerRNN(input_size=len(feature_cols), hidden_size=64, num_layers=2,
 optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 criterion = nn.MSELoss()
 
+
+print(f"torch.cuda.is_available(): {torch.cuda.is_available()}")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device)
+X_train = X_train.to(device)
+y_train = y_train.to(device)
+X_test = X_test.to(device)
+y_test = y_test.to(device)
+
 epochs = 200
 for epoch in range(1, epochs + 1):
     model.train()
