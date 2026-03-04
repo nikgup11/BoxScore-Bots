@@ -1,4 +1,4 @@
 from database import engine
-from models import Difference
+from models import XGB_Player
 
-Difference.metadata.create_all(bind=engine)
+XGB_Player.metadata.create_all(bind=engine)

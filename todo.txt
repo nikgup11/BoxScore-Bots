@@ -1,7 +1,8 @@
 ELI LIST - 
-2. look into player teams not updating after trades (i.e. Harden, Schroder, etc.)
-3. Injury status incorporation
-4. look into additional team stats from kaggle data
 
 NIKHIL LIST - 
-1. UI
+1. Additional model research
+
+BOTH LIST -
+2. tracking for top picks included on page
+3. add past stats on click for each player
