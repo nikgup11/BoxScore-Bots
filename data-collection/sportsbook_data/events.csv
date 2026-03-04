@@ -1,11 +1,7 @@
 ,id,sport_key,sport_title,commence_time,home_team,away_team
-0,c1ff99354847ec708fa5aa95791dd292,basketball_nba,NBA,2026-02-27T00:10:00Z,Indiana Pacers,Charlotte Hornets
-1,68aa69753fe0692c00bca7343fd61b8b,basketball_nba,NBA,2026-02-27T00:10:00Z,Philadelphia 76ers,Miami Heat
-2,e7ec27a7927c90d32cc2fb2ebdd76585,basketball_nba,NBA,2026-02-27T00:40:00Z,Atlanta Hawks,Washington Wizards
-3,985b660bc6ae0521de793dacdc666b6f,basketball_nba,NBA,2026-02-27T00:40:00Z,Brooklyn Nets,San Antonio Spurs
-4,57e97a356eae8b74d10b09eb58962542,basketball_nba,NBA,2026-02-27T00:40:00Z,Orlando Magic,Houston Rockets
-5,3c630cc42d5e0712a9317980a2a35a21,basketball_nba,NBA,2026-02-27T01:10:00Z,Chicago Bulls,Portland Trail Blazers
-6,ab0ac3191351854638bfb2c653e7408b,basketball_nba,NBA,2026-02-27T01:40:00Z,Dallas Mavericks,Sacramento Kings
-7,e1602b5cfe2adbc7eeb741f4aa40e1dd,basketball_nba,NBA,2026-02-27T02:10:00Z,Phoenix Suns,Los Angeles Lakers
-8,e981f4f0dfb4d08b3260300b922334fe,basketball_nba,NBA,2026-02-27T02:10:00Z,Utah Jazz,New Orleans Pelicans
-9,2678ac16f4dad43d27dd570fb7a64577,basketball_nba,NBA,2026-02-27T03:10:00Z,Los Angeles Clippers,Minnesota Timberwolves
+0,5e27bbc527b9df8725ac9fcf03174b8c,basketball_nba,NBA,2026-03-05T00:10:00Z,New York Knicks,Oklahoma City Thunder
+1,205af1eb3893119c935c720bddf95254,basketball_nba,NBA,2026-03-05T00:40:00Z,Boston Celtics,Charlotte Hornets
+2,417802e27d447db450466ad4fd7a4f8d,basketball_nba,NBA,2026-03-05T00:40:00Z,Philadelphia 76ers,Utah Jazz
+3,2a2434eaef59c9cbb34c5410c32f2529,basketball_nba,NBA,2026-03-05T01:10:00Z,Memphis Grizzlies,Portland Trail Blazers
+4,e94b132f71de8a19ec817d79677921d9,basketball_nba,NBA,2026-03-05T02:40:00Z,Milwaukee Bucks,Atlanta Hawks
+5,4a6dcac94e4279ba0acbd1f6376b6df2,basketball_nba,NBA,2026-03-05T03:40:00Z,Los Angeles Clippers,Indiana Pacers

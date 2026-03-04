@@ -24,6 +24,9 @@ class DailyDist(Base):
     average_dist_pts = Column(Float, nullable=True)
     average_dist_reb = Column(Float, nullable=True)
     average_dist_ast = Column(Float, nullable=True)
+    xgb_average_dist_pts = Column(Float, nullable=True)
+    xgb_average_dist_reb = Column(Float, nullable=True)
+    xgb_average_dist_ast = Column(Float, nullable=True)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
 class Difference(Base):
