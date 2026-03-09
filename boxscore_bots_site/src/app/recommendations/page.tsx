@@ -135,7 +135,7 @@ export default function RecPage() {
                       <td className="p-4 text-center font-medium">{(player.points ?? 0).toFixed(2)}</td>
                       <td className="p-4 text-center font-medium">{(player.line ?? 0).toFixed(2)}</td>
                       <td className="p-4 text-center font-medium">{(player.difference ?? 0).toFixed(2)}</td>
-                      <td className="p-4 text-center font-medium">{player.recommendation > 0 ? 'OVER' : 'UNDER'}</td>
+                      <td className="p-4 text-center font-medium">{player.recommendation != null && player.recommendation > 0 ? 'OVER' : 'UNDER'}</td>
                     </tr>
                   ))
                 ) : (
