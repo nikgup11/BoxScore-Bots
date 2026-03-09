@@ -37,10 +37,13 @@ def bulk_insert_daily_dist(csv_path: str):
 
     daily_dist_records = [
         DailyDist(
-            date=pd.to_datetime(row["Date"]).date(),
-            average_dist_pts=row["Average_Dist_PTS"] if not pd.isna(row["Average_Dist_PTS"]) else None,
-            average_dist_reb=row["Average_Dist_REB"] if not pd.isna(row["Average_Dist_REB"]) else None,
-            average_dist_ast=row["Average_Dist_AST"] if not pd.isna(row["Average_Dist_AST"]) else None,
+            date=pd.to_datetime(row["Game_Date"]).date(),
+            average_dist_pts=row["RNN_Average_Dist_PTS"] if not pd.isna(row["RNN_Average_Dist_PTS"]) else None,
+            average_dist_reb=row["RNN_Average_Dist_REB"] if not pd.isna(row["RNN_Average_Dist_REB"]) else None,
+            average_dist_ast=row["RNN_Average_Dist_AST"] if not pd.isna(row["RNN_Average_Dist_AST"]) else None,
+            xgb_average_dist_pts=row["XGB_Average_Dist_PTS"] if not pd.isna(row["XGB_Average_Dist_PTS"]) else None,
+            xgb_average_dist_reb=row["XGB_Average_Dist_REB"] if not pd.isna(row["XGB_Average_Dist_REB"]) else None,
+            xgb_average_dist_ast=row["XGB_Average_Dist_AST"] if not pd.isna(row["XGB_Average_Dist_AST"]) else None,
         )
         for _, row in df.iterrows()
     ]
