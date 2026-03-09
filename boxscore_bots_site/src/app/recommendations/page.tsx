@@ -131,9 +131,9 @@ export default function RecPage() {
                     <tr key={index} className="hover:bg-blue-50 transition-colors">
                       <td className="p-4 font-semibold text-blue-900">{player.name}</td>
                       <td className="p-4 text-center font-medium">{(player.points ?? 0).toFixed(2)}</td>
-                      {/* {<td className="p-4 text-center font-medium">{(player.line ?? 0).toFixed(2)}</td>} - TEMPORARILY COMMENTED FOR VERCEL BUILD*/}
+                      <td className="p-4 text-center font-medium">{(player.line ?? 0).toFixed(2)}</td>
                       <td className="p-4 text-center font-medium">{(player.difference ?? 0).toFixed(2)}</td>
-                      {/* {<td className="p-4 text-center font-medium">{player.recommendation > 0 ? 'OVER' : 'UNDER'}</td>} - TEMPORARILY COMMENTED FOR VERCEL BUILD*/}
+                      <td className="p-4 text-center font-medium">{player.recommendation > 0 ? 'OVER' : 'UNDER'}</td>
                     </tr>
                   ))
                 ) : (
