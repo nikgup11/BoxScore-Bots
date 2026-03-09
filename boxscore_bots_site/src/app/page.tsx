@@ -18,7 +18,7 @@ export default function LandingPage() {
             sports line predictor. We train our ML models on
             public data to predict player performances over
             the season, and present their projected statistics
-            in an easy-to-read format! (force vercel deploy)
+            in an easy-to-read format!
           </p>
         </main>
 
